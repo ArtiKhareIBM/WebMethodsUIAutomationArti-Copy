@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="wMioTestProductionSuite" parallel="classes" thread-count="2">
+  <test  name="RESTApplicationTestSuite">
+    <classes>
+     <class name="com.webMethodsFlowUI.testsuites.RESTApplication.RESTApplicationTestSuite"/>
+    
+     
+    </classes>
+  </test> 
+  
+  
+  <test  name="SOAPAPIFromScratchTestSuite">
+    <classes>
+    
+     <class name="com.webMethodsFlowUI.testsuites.SOAPAPI.SOAPAPIFromScratchTestSuite" />
+          
+    </classes>
+  </test> 
+  
+  
+  <test name="OnPremApplicationTestSuite">
+		<classes>
+			<class
+				name="com.webMethodsFlowUI.testsuites.onpremApplication.OnPremApplicationTestSuite" />
+
+		</classes>
+	</test>
+	
+	
+	<test name="RESTAPIFromScratchTestSuite">
+		<classes>
+			<class
+				name="com.webMethodsFlowUI.testsuites.RESTAPI.RESTAPIFromScratchTestSuite" />
+
+		</classes>
+		
+	</test>
+	<test name="RESTAPIFromScratchExecutionTestSuite">
+		<classes>
+			<class
+				name="com.webMethodsFlowUI.testsuites.RESTAPI.RESTAPIFromScratchExecutionTestSuite" />
+
+		</classes>
+	</test>
+		<test name="RESTAPIImportFileAutomation">
+		<classes>
+			<class
+				name="com.webMethodsFlowUI.testsuites.RESTAPI.RESTAPIImportFileAutomation" />
+
+		</classes>
+	</test>
+  
+  <test name="SOAPConnectorWithUrlTestSuite">
+		<classes>
+			<class
+				name="com.webMethodsFlowUI.testsuites.SOAPApplication.SOAPConnectorWithUrlTestSuite" />
+
+		</classes>
+		
+	</test>
+	 <test name="SalesForceConnectorTestSuite">
+		<classes>
+			<class
+				name="com.webMethodsFlowUI.testsuites.PredefinedApplication.SalesForceCRMBasicAuthTestSuit" />
+			<class
+				name="com.webMethodsFlowUI.testsuites.PredefinedApplication.SalesForceCRMAuthorizationCodeFlowTestSuit" />
+			<class
+				name="com.webMethodsFlowUI.testsuites.PredefinedApplication.SalesforceCRMJWTFlowTestSuite" />
+				
+
+		</classes>
+		
+	</test>
+  
+  
+  
+  
+  </suite> <!-- Suite -->

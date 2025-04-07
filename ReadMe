@@ -1,0 +1,11 @@
+1>Ensure java installed before creating maven project
+
+2>
+src/main/java
+     Is used for keeping utility, helper, page objects ,config, BaseClass etc
+src/test/java
+      Is used for keeping test classes
+
+       
+ 3>Dependecy jar details added in pom.xml 
+      junit,testng,selenium,log4j,apache poi,extent report jars are used  

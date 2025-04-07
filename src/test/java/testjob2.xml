@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="wMioTestSanitySuite">
+
+	<test  name="SOAPAPIFromScratchTestSuite">
+		<classes>
+
+			<class name="com.webMethodsFlowUI.testsuites.SOAPAPI.SOAPAPIFromScratchTestSuite" />
+		</classes>
+	</test>
+	
+	<test  name="CloudContainerTestSuite">
+		<classes>
+			<class name="com.webMethodsFlowUI.Integration.testsuites.CloudContainer" />
+		</classes>
+	</test>
+	
+	<test name="SOAPConnectorWithUrlTestSuite">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.SOAPApplication.SOAPConnectorWithUrlTestSuite" />
+		</classes>
+	</test>
+	
+	<test name="SOAPConnectorWithWSDLTestSuite">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.SOAPApplication.SoapConnectorWithWSDLTestSuite" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

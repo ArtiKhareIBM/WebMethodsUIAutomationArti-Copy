@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OriginSanitySuite">
+	<listeners>
+		<listener
+			class-name="com.webMethodsUI.flow.helper.listener.ExtentListener" />
+	</listeners>
+
+	<!-- <test name = "Publish Test case" > <classes> <class name = "com.webMethodsFlowUI.testsuites.WF_33814_PublishDeploy.WF_33814_Testcase" 
+		/> </classes> </test> <test name = "Deploy Test case" > <classes> <class 
+		name = "com.webMethodsFlowUI.testsuites.WF_33814_PublishDeploy.WF_33814_TestcaseTargetTenant" 
+		/> </classes> </test> <test name = "Post Deployment Test case" > <classes> 
+		<class name = "com.webMethodsFlowUI.testsuites.WF_33814_PublishDeploy.WF_33814_TestCase_AfterDeployment" 
+		/> </classes> </test> <test name="Notification_TestCase"> <classes> <class 
+		name="com.webMethodsFlowUI.testsuites.WF_16746_Notification.WF_16746_Notification_TestCase" 
+		/> </classes> </test> <test name="ACLwithAdmin"> <classes> <class name="com.webMethodsFlowUI.testsuites.ACL_WF33565.ACL_WF33565" 
+		/> </classes> </test> <test name="ACLwithDev"> <classes> <class name="com.webMethodsFlowUI.testsuites.ACL_WF33565.ACL_WF33566DevUser" 
+		/> </classes> </test> <test name="ACLwithAdminMultiinstance"> <classes> <class 
+		name="com.webMethodsFlowUI.testsuites.ACL_WF33565.MultiInstance_ACL" /> </classes> 
+		</test> <test name="ACLwithAdminCleanup"> <classes> <class name="com.webMethodsFlowUI.testsuites.ACL_WF33565.ACL_WF33566Cleanup" 
+		/> </classes> </test> <test name="RESTApplicationTestSuite"> <classes> <class 
+		name="com.webMethodsFlowUI.testsuites.DeployAnywhereConnector.ServiceConnectorListSuite" 
+		/> </classes> </test> <test name="InvokingRestapiusingpkgservice"> <classes> 
+		<class name="com.webMethodsFlowUI.testsuites.RestApiHavingPackageService.InvokingRestapiusingpkgservice" 
+		/> </classes> </test> -->
+
+	<test name="Version Source Control">
+		<classes>
+			<class
+				name="com.webMethodsFlowUI.testsuites.VersionControlTestCases.VersionControlTestCase" />
+
+		</classes> 
+	</test>
+ <!-- 	 <test name="GitLab Source Control">
+		<classes>
+			<class
+				name="com.webMethodsFlowUI.testsuites.GitLabVersionControl.GitLabVersionControlTestCase" />
+
+		</classes>
+	</test> -->
+<!-- 	<test name="BitBucket Source Control">
+		<classes>
+			<class
+				name="com.webMethodsFlowUI.testsuites.BitbucketVersionControl.BitBucketVersionControlTestCase" />
+
+		</classes>
+	</test> -->
+
+
+</suite> <!-- Suite -->

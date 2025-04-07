@@ -1,0 +1,2282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:tns="http://group.vodafone.com/schema/common/v1"
+    targetNamespace="http://group.vodafone.com/schema/common/v1"
+	attributeFormDefault="unqualified"
+	elementFormDefault="qualified"
+	version="1.0.0">
+	<xsd:annotation>
+		<xsd:documentation>
+			<description>
+				<p>The ISO3166-1 Currency Codes</p>
+			</description>
+			<source version="1.0.0">UML:Model#</source>
+			<created>2012-06-10T00:00:00Z</created>
+			<creator>Glue Reply</creator>
+			<owner>Vodafone Group</owner>
+			<rights>©Vodafone Group Services Limited. All rights reserved.</rights>
+		</xsd:documentation>
+	</xsd:annotation>
+	
+	<xsd:simpleType name="ISO4127_CurrencyCodeType">
+		<xsd:annotation>
+			<xsd:documentation>
+				<description>
+					<p>The ISO 4127 currency codes</p>
+				</description>
+				<source>http://www.iso.org/iso/support/faqs/faqs_widely_used_standards/widely_used_standards_other/currency_codes/currency_codes_list-1.htm</source>
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="AFN">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>AFGHANISTAN</ENTITY>
+						<CURRENCY>Afghani</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ÅLAND ISLANDS</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ALL">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ALBANIA</ENTITY>
+						<CURRENCY>Lek</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DZD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ALGERIA</ENTITY>
+						<CURRENCY>Algerian Dinar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="USD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>AMERICAN SAMOA</ENTITY>
+						<CURRENCY>US Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ANDORRA</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="AOA">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ANGOLA</ENTITY>
+						<CURRENCY>Kwanza</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XCD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ANGUILLA</ENTITY>
+						<CURRENCY>East Caribbean Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ANTARCTICA</ENTITY>
+						<CURRENCY>No universal currency</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XCD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ANTIGUA AND BARBUDA</ENTITY>
+						<CURRENCY>East Caribbean Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ARS">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ARGENTINA</ENTITY>
+						<CURRENCY>Argentine Peso</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="AMD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ARMENIA</ENTITY>
+						<CURRENCY>Armenian Dram</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="AWG">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ARUBA</ENTITY>
+						<CURRENCY>Aruban Florin</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="AUD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>AUSTRALIA</ENTITY>
+						<CURRENCY>Australian Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>AUSTRIA</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="AZN">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>AZERBAIJAN</ENTITY>
+						<CURRENCY>Azerbaijanian Manat</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="BSD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>BAHAMAS</ENTITY>
+						<CURRENCY>Bahamian Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="BHD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>BAHRAIN</ENTITY>
+						<CURRENCY>Bahraini Dinar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="BDT">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>BANGLADESH</ENTITY>
+						<CURRENCY>Taka</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="BBD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>BARBADOS</ENTITY>
+						<CURRENCY>Barbados Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="BYR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>BELARUS</ENTITY>
+						<CURRENCY>Belarussian Ruble</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>BELGIUM</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="BZD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>BELIZE</ENTITY>
+						<CURRENCY>Belize Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XOF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>BENIN</ENTITY>
+						<CURRENCY>CFA Franc BCEAO</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="BMD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>BERMUDA</ENTITY>
+						<CURRENCY>Bermudian Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="BTN">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>BHUTAN</ENTITY>
+						<CURRENCY>Ngultrum</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="INR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>BHUTAN</ENTITY>
+						<CURRENCY>Indian Rupee</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="BOB">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>BOLIVIA, PLURINATIONAL STATE OF</ENTITY>
+						<CURRENCY>Boliviano</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="BOV">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>BOLIVIA, PLURINATIONAL STATE OF</ENTITY>
+						<CURRENCY>Mvdol</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="USD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>BONAIRE, SINT EUSTATIUS AND SABA</ENTITY>
+						<CURRENCY>US Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="BAM">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>BOSNIA AND HERZEGOVINA</ENTITY>
+						<CURRENCY>Convertible Mark</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="BWP">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>BOTSWANA</ENTITY>
+						<CURRENCY>Pula</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="NOK">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>BOUVET ISLAND</ENTITY>
+						<CURRENCY>Norwegian Krone</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="BRL">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>BRAZIL</ENTITY>
+						<CURRENCY>Brazilian Real</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="USD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>BRITISH INDIAN OCEAN TERRITORY</ENTITY>
+						<CURRENCY>US Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="BND">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>BRUNEI DARUSSALAM</ENTITY>
+						<CURRENCY>Brunei Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="BGN">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>BULGARIA</ENTITY>
+						<CURRENCY>Bulgarian Lev</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XOF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>BURKINA FASO</ENTITY>
+						<CURRENCY>CFA Franc BCEAO</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="BIF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>BURUNDI</ENTITY>
+						<CURRENCY>Burundi Franc</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="KHR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>CAMBODIA</ENTITY>
+						<CURRENCY>Riel</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XAF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>CAMEROON</ENTITY>
+						<CURRENCY>CFA Franc BEAC</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="CAD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>CANADA</ENTITY>
+						<CURRENCY>Canadian Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="CVE">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>CAPE VERDE</ENTITY>
+						<CURRENCY>Cape Verde Escudo</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="KYD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>CAYMAN ISLANDS</ENTITY>
+						<CURRENCY>Cayman Islands Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XAF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>CENTRAL AFRICAN REPUBLIC</ENTITY>
+						<CURRENCY>CFA Franc BEAC</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XAF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>CHAD</ENTITY>
+						<CURRENCY>CFA Franc BEAC</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="CLF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>CHILE</ENTITY>
+						<CURRENCY>Unidades de fomento</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="CLP">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>CHILE</ENTITY>
+						<CURRENCY>Chilean Peso</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="CNY">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>CHINA</ENTITY>
+						<CURRENCY>Yuan Renminbi</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="AUD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>CHRISTMAS ISLAND</ENTITY>
+						<CURRENCY>Australian Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="AUD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>COCOS (KEELING) ISLANDS</ENTITY>
+						<CURRENCY>Australian Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="COP">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>COLOMBIA</ENTITY>
+						<CURRENCY>Colombian Peso</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="COU">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>COLOMBIA</ENTITY>
+						<CURRENCY>Unidad de Valor Real</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="KMF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>COMOROS</ENTITY>
+						<CURRENCY>Comoro Franc</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XAF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>CONGO</ENTITY>
+						<CURRENCY>CFA Franc BEAC</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="CDF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>CONGO, THE DEMOCRATIC REPUBLIC OF</ENTITY>
+						<CURRENCY>Congolese Franc</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="NZD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>COOK ISLANDS</ENTITY>
+						<CURRENCY>New Zealand Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="CRC">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>COSTA RICA</ENTITY>
+						<CURRENCY>Costa Rican Colon</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XOF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>CÔTE D'IVOIRE</ENTITY>
+						<CURRENCY>CFA Franc BCEAO</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="HRK">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>CROATIA</ENTITY>
+						<CURRENCY>Croatian Kuna</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="CUC">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>CUBA</ENTITY>
+						<CURRENCY>Peso Convertible</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="CUP">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>CUBA</ENTITY>
+						<CURRENCY>Cuban Peso</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ANG">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>CURAÇAO</ENTITY>
+						<CURRENCY>Netherlands Antillean Guilder</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>CYPRUS</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="CZK">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>CZECH REPUBLIC</ENTITY>
+						<CURRENCY>Czech Koruna</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DKK">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>DENMARK</ENTITY>
+						<CURRENCY>Danish Krone</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DJF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>DJIBOUTI</ENTITY>
+						<CURRENCY>Djibouti Franc</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XCD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>DOMINICA</ENTITY>
+						<CURRENCY>East Caribbean Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DOP">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>DOMINICAN REPUBLIC</ENTITY>
+						<CURRENCY>Dominican Peso</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="USD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ECUADOR</ENTITY>
+						<CURRENCY>US Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EGP">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>EGYPT</ENTITY>
+						<CURRENCY>Egyptian Pound</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="SVC">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>EL SALVADOR</ENTITY>
+						<CURRENCY>El Salvador Colon</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="USD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>EL SALVADOR</ENTITY>
+						<CURRENCY>US Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XAF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>EQUATORIAL GUINEA</ENTITY>
+						<CURRENCY>CFA Franc BEAC</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ERN">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ERITREA</ENTITY>
+						<CURRENCY>Nakfa</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ESTONIA</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ETB">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ETHIOPIA</ENTITY>
+						<CURRENCY>Ethiopian Birr</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>EUROPEAN UNION </ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="FKP">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>FALKLAND ISLANDS (MALVINAS)</ENTITY>
+						<CURRENCY>Falkland Islands Pound</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DKK">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>FAROE ISLANDS</ENTITY>
+						<CURRENCY>Danish Krone</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="FJD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>FIJI</ENTITY>
+						<CURRENCY>Fiji Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>FINLAND</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>FRANCE</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>FRENCH GUIANA</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XPF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>FRENCH POLYNESIA</ENTITY>
+						<CURRENCY>CFP Franc</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>FRENCH SOUTHERN TERRITORIES</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XAF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>GABON</ENTITY>
+						<CURRENCY>CFA Franc BEAC</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="GMD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>GAMBIA</ENTITY>
+						<CURRENCY>Dalasi</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="GEL">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>GEORGIA</ENTITY>
+						<CURRENCY>Lari</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>GERMANY</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="GHS">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>GHANA</ENTITY>
+						<CURRENCY>Ghana Cedi</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="GIP">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>GIBRALTAR</ENTITY>
+						<CURRENCY>Gibraltar Pound</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>GREECE</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="DKK">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>GREENLAND</ENTITY>
+						<CURRENCY>Danish Krone</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XCD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>GRENADA</ENTITY>
+						<CURRENCY>East Caribbean Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>GUADELOUPE</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="USD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>GUAM</ENTITY>
+						<CURRENCY>US Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="GTQ">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>GUATEMALA</ENTITY>
+						<CURRENCY>Quetzal</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="GBP">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>GUERNSEY</ENTITY>
+						<CURRENCY>Pound Sterling</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="GNF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>GUINEA</ENTITY>
+						<CURRENCY>Guinea Franc</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XOF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>GUINEA-BISSAU</ENTITY>
+						<CURRENCY>CFA Franc BCEAO</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="GYD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>GUYANA</ENTITY>
+						<CURRENCY>Guyana Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="HTG">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>HAITI</ENTITY>
+						<CURRENCY>Gourde</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="USD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>HAITI</ENTITY>
+						<CURRENCY>US Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="AUD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>HEARD ISLAND AND McDONALD ISLANDS</ENTITY>
+						<CURRENCY>Australian Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>HOLY SEE (VATICAN CITY STATE)</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="HNL">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>HONDURAS</ENTITY>
+						<CURRENCY>Lempira</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="HKD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>HONG KONG</ENTITY>
+						<CURRENCY>Hong Kong Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="HUF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>HUNGARY</ENTITY>
+						<CURRENCY>Forint</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ISK">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ICELAND</ENTITY>
+						<CURRENCY>Iceland Krona</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="INR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>INDIA</ENTITY>
+						<CURRENCY>Indian Rupee</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="IDR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>INDONESIA</ENTITY>
+						<CURRENCY>Rupiah</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XDR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>INTERNATIONAL MONETARY FUND (IMF) </ENTITY>
+						<CURRENCY>SDR (Special Drawing Right)</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="IRR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>IRAN, ISLAMIC REPUBLIC OF</ENTITY>
+						<CURRENCY>Iranian Rial</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="IQD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>IRAQ</ENTITY>
+						<CURRENCY>Iraqi Dinar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>IRELAND</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="GBP">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ISLE OF MAN</ENTITY>
+						<CURRENCY>Pound Sterling</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ILS">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ISRAEL</ENTITY>
+						<CURRENCY>New Israeli Sheqel</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ITALY</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="JMD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>JAMAICA</ENTITY>
+						<CURRENCY>Jamaican Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="JPY">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>JAPAN</ENTITY>
+						<CURRENCY>Yen</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="GBP">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>JERSEY</ENTITY>
+						<CURRENCY>Pound Sterling</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="JOD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>JORDAN</ENTITY>
+						<CURRENCY>Jordanian Dinar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="KZT">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>KAZAKHSTAN</ENTITY>
+						<CURRENCY>Tenge</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="KES">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>KENYA</ENTITY>
+						<CURRENCY>Kenyan Shilling</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="AUD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>KIRIBATI</ENTITY>
+						<CURRENCY>Australian Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="KPW">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>KOREA, DEMOCRATIC PEOPLE’S REPUBLIC OF</ENTITY>
+						<CURRENCY>North Korean Won</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="KRW">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>KOREA, REPUBLIC OF</ENTITY>
+						<CURRENCY>Won</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="KWD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>KUWAIT</ENTITY>
+						<CURRENCY>Kuwaiti Dinar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="KGS">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>KYRGYZSTAN</ENTITY>
+						<CURRENCY>Som</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="LAK">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>LAO PEOPLE’S DEMOCRATIC REPUBLIC</ENTITY>
+						<CURRENCY>Kip</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="LVL">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>LATVIA</ENTITY>
+						<CURRENCY>Latvian Lats</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="LBP">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>LEBANON</ENTITY>
+						<CURRENCY>Lebanese Pound</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="LSL">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>LESOTHO</ENTITY>
+						<CURRENCY>Loti</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ZAR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>LESOTHO</ENTITY>
+						<CURRENCY>Rand</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="LRD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>LIBERIA</ENTITY>
+						<CURRENCY>Liberian Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="LYD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>LIBYA</ENTITY>
+						<CURRENCY>Libyan Dinar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="CHF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>LIECHTENSTEIN</ENTITY>
+						<CURRENCY>Swiss Franc</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="LTL">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>LITHUANIA</ENTITY>
+						<CURRENCY>Lithuanian Litas</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>LUXEMBOURG</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="MOP">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MACAO</ENTITY>
+						<CURRENCY>Pataca</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="MKD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF</ENTITY>
+						<CURRENCY>Denar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="MGA">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MADAGASCAR</ENTITY>
+						<CURRENCY>Malagasy Ariary</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="MWK">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MALAWI</ENTITY>
+						<CURRENCY>Kwacha</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="MYR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MALAYSIA</ENTITY>
+						<CURRENCY>Malaysian Ringgit</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="MVR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MALDIVES</ENTITY>
+						<CURRENCY>Rufiyaa</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XOF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MALI</ENTITY>
+						<CURRENCY>CFA Franc BCEAO</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MALTA</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="USD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MARSHALL ISLANDS</ENTITY>
+						<CURRENCY>US Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MARTINIQUE</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="MRO">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MAURITANIA</ENTITY>
+						<CURRENCY>Ouguiya</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="MUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MAURITIUS</ENTITY>
+						<CURRENCY>Mauritius Rupee</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MAYOTTE</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XUA">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MEMBER COUNTRIES OF THE AFRICAN DEVELOPMENT BANK GROUP</ENTITY>
+						<CURRENCY>ADB Unit of Account</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="MXN">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MEXICO</ENTITY>
+						<CURRENCY>Mexican Peso</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="MXV">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MEXICO</ENTITY>
+						<CURRENCY>Mexican Unidad de Inversion (UDI)</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="USD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MICRONESIA, FEDERATED STATES OF</ENTITY>
+						<CURRENCY>US Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="MDL">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MOLDOVA, REPUBLIC OF</ENTITY>
+						<CURRENCY>Moldovan Leu</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MONACO</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="MNT">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MONGOLIA</ENTITY>
+						<CURRENCY>Tugrik</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MONTENEGRO</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XCD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MONTSERRAT</ENTITY>
+						<CURRENCY>East Caribbean Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="MAD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MOROCCO</ENTITY>
+						<CURRENCY>Moroccan Dirham</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="MZN">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MOZAMBIQUE</ENTITY>
+						<CURRENCY>Mozambique Metical</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="MMK">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>MYANMAR</ENTITY>
+						<CURRENCY>Kyat</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="NAD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>NAMIBIA</ENTITY>
+						<CURRENCY>Namibia Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ZAR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>NAMIBIA</ENTITY>
+						<CURRENCY>Rand</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="AUD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>NAURU</ENTITY>
+						<CURRENCY>Australian Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="NPR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>NEPAL</ENTITY>
+						<CURRENCY>Nepalese Rupee</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>NETHERLANDS</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XPF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>NEW CALEDONIA</ENTITY>
+						<CURRENCY>CFP Franc</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="NZD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>NEW ZEALAND</ENTITY>
+						<CURRENCY>New Zealand Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="NIO">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>NICARAGUA</ENTITY>
+						<CURRENCY>Cordoba Oro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XOF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>NIGER</ENTITY>
+						<CURRENCY>CFA Franc BCEAO</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="NGN">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>NIGERIA</ENTITY>
+						<CURRENCY>Naira</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="NZD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>NIUE</ENTITY>
+						<CURRENCY>New Zealand Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="AUD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>NORFOLK ISLAND</ENTITY>
+						<CURRENCY>Australian Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="USD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>NORTHERN MARIANA ISLANDS</ENTITY>
+						<CURRENCY>US Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="NOK">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>NORWAY</ENTITY>
+						<CURRENCY>Norwegian Krone</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="OMR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>OMAN</ENTITY>
+						<CURRENCY>Rial Omani</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="PKR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>PAKISTAN</ENTITY>
+						<CURRENCY>Pakistan Rupee</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="USD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>PALAU</ENTITY>
+						<CURRENCY>US Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>PALESTINIAN TERRITORY, OCCUPIED</ENTITY>
+						<CURRENCY>No universal currency</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="PAB">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>PANAMA</ENTITY>
+						<CURRENCY>Balboa</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="USD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>PANAMA</ENTITY>
+						<CURRENCY>US Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="PGK">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>PAPUA NEW GUINEA</ENTITY>
+						<CURRENCY>Kina</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="PYG">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>PARAGUAY</ENTITY>
+						<CURRENCY>Guarani</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="PEN">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>PERU</ENTITY>
+						<CURRENCY>Nuevo Sol</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="PHP">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>PHILIPPINES</ENTITY>
+						<CURRENCY>Philippine Peso</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="NZD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>PITCAIRN</ENTITY>
+						<CURRENCY>New Zealand Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="PLN">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>POLAND</ENTITY>
+						<CURRENCY>Zloty</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>PORTUGAL</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="USD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>PUERTO RICO</ENTITY>
+						<CURRENCY>US Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="QAR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>QATAR</ENTITY>
+						<CURRENCY>Qatari Rial</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>RÉUNION</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="RON">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ROMANIA</ENTITY>
+						<CURRENCY>New Romanian Leu</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="RUB">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>RUSSIAN FEDERATION</ENTITY>
+						<CURRENCY>Russian Ruble</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="RWF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>RWANDA</ENTITY>
+						<CURRENCY>Rwanda Franc</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SAINT BARTHÉLEMY</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="SHP">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA</ENTITY>
+						<CURRENCY>Saint Helena Pound</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XCD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SAINT KITTS AND NEVIS</ENTITY>
+						<CURRENCY>East Caribbean Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XCD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SAINT LUCIA</ENTITY>
+						<CURRENCY>East Caribbean Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SAINT MARTIN (FRENCH PART)</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SAINT PIERRE AND MIQUELON</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XCD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SAINT VINCENT AND THE GRENADINES</ENTITY>
+						<CURRENCY>East Caribbean Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="WST">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SAMOA</ENTITY>
+						<CURRENCY>Tala</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SAN MARINO</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="STD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SAO TOME AND PRINCIPE</ENTITY>
+						<CURRENCY>Dobra</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="SAR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SAUDI ARABIA</ENTITY>
+						<CURRENCY>Saudi Riyal</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XOF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SENEGAL</ENTITY>
+						<CURRENCY>CFA Franc BCEAO</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="RSD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SERBIA </ENTITY>
+						<CURRENCY>Serbian Dinar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="SCR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SEYCHELLES</ENTITY>
+						<CURRENCY>Seychelles Rupee</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="SLL">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SIERRA LEONE</ENTITY>
+						<CURRENCY>Leone</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="SGD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SINGAPORE</ENTITY>
+						<CURRENCY>Singapore Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ANG">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SINT MAARTEN (DUTCH PART)</ENTITY>
+						<CURRENCY>Netherlands Antillean Guilder</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XSU">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SISTEMA UNITARIO DE COMPENSACION REGIONAL DE PAGOS "SUCRE" </ENTITY>
+						<CURRENCY>Sucre</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SLOVAKIA</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SLOVENIA</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="SBD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SOLOMON ISLANDS</ENTITY>
+						<CURRENCY>Solomon Islands Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="SOS">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SOMALIA</ENTITY>
+						<CURRENCY>Somali Shilling</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ZAR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SOUTH AFRICA</ENTITY>
+						<CURRENCY>Rand</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS</ENTITY>
+						<CURRENCY>No universal currency</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="SSP">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SOUTH SUDAN</ENTITY>
+						<CURRENCY>South Sudanese Pound</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SPAIN</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="LKR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SRI LANKA</ENTITY>
+						<CURRENCY>Sri Lanka Rupee</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="SDG">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SUDAN</ENTITY>
+						<CURRENCY>Sudanese Pound</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="SRD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SURINAME</ENTITY>
+						<CURRENCY>Surinam Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="NOK">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SVALBARD AND JAN MAYEN</ENTITY>
+						<CURRENCY>Norwegian Krone</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="SZL">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SWAZILAND</ENTITY>
+						<CURRENCY>Lilangeni</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="SEK">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SWEDEN</ENTITY>
+						<CURRENCY>Swedish Krona</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="CHE">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SWITZERLAND</ENTITY>
+						<CURRENCY>WIR Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="CHF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SWITZERLAND</ENTITY>
+						<CURRENCY>Swiss Franc</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="CHW">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SWITZERLAND</ENTITY>
+						<CURRENCY>WIR Franc</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="SYP">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>SYRIAN ARAB REPUBLIC</ENTITY>
+						<CURRENCY>Syrian Pound</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="TWD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>TAIWAN, PROVINCE OF CHINA</ENTITY>
+						<CURRENCY>New Taiwan Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="TJS">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>TAJIKISTAN</ENTITY>
+						<CURRENCY>Somoni</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="TZS">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>TANZANIA, UNITED REPUBLIC OF</ENTITY>
+						<CURRENCY>Tanzanian Shilling</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="THB">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>THAILAND</ENTITY>
+						<CURRENCY>Baht</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="USD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>TIMOR-LESTE</ENTITY>
+						<CURRENCY>US Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XOF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>TOGO</ENTITY>
+						<CURRENCY>CFA Franc BCEAO</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="NZD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>TOKELAU</ENTITY>
+						<CURRENCY>New Zealand Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="TOP">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>TONGA</ENTITY>
+						<CURRENCY>Pa’anga</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="TTD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>TRINIDAD AND TOBAGO</ENTITY>
+						<CURRENCY>Trinidad and Tobago Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="TND">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>TUNISIA</ENTITY>
+						<CURRENCY>Tunisian Dinar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="TRY">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>TURKEY</ENTITY>
+						<CURRENCY>Turkish Lira</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="TMT">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>TURKMENISTAN</ENTITY>
+						<CURRENCY>Turkmenistan New Manat</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="USD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>TURKS AND CAICOS ISLANDS</ENTITY>
+						<CURRENCY>US Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="AUD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>TUVALU</ENTITY>
+						<CURRENCY>Australian Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UGX">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>UGANDA</ENTITY>
+						<CURRENCY>Uganda Shilling</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UAH">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>UKRAINE</ENTITY>
+						<CURRENCY>Hryvnia</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="AED">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>UNITED ARAB EMIRATES</ENTITY>
+						<CURRENCY>UAE Dirham</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="GBP">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>UNITED KINGDOM</ENTITY>
+						<CURRENCY>Pound Sterling</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="USD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>UNITED STATES</ENTITY>
+						<CURRENCY>US Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="USN">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>UNITED STATES</ENTITY>
+						<CURRENCY>US Dollar (Next day)</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="USS">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>UNITED STATES</ENTITY>
+						<CURRENCY>US Dollar (Same day)</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="USD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>UNITED STATES MINOR OUTLYING ISLANDS</ENTITY>
+						<CURRENCY>US Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UYI">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>URUGUAY</ENTITY>
+						<CURRENCY>Uruguay Peso en Unidades Indexadas (URUIURUI)</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UYU">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>URUGUAY</ENTITY>
+						<CURRENCY>Peso Uruguayo</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="UZS">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>UZBEKISTAN</ENTITY>
+						<CURRENCY>Uzbekistan Sum</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="VUV">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>VANUATU</ENTITY>
+						<CURRENCY>Vatu</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="EUR">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>Vatican City State (HOLY SEE)</ENTITY>
+						<CURRENCY>Euro</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="VEF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>VENEZUELA, BOLIVARIAN REPUBLIC OF</ENTITY>
+						<CURRENCY>Bolivar Fuerte</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="VND">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>VIET NAM</ENTITY>
+						<CURRENCY>Dong</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="USD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>VIRGIN ISLANDS (BRITISH)</ENTITY>
+						<CURRENCY>US Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="USD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>VIRGIN ISLANDS (US)</ENTITY>
+						<CURRENCY>US Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XPF">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>WALLIS AND FUTUNA</ENTITY>
+						<CURRENCY>CFP Franc</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="MAD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>WESTERN SAHARA</ENTITY>
+						<CURRENCY>Moroccan Dirham</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="YER">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>YEMEN</ENTITY>
+						<CURRENCY>Yemeni Rial</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ZMK">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ZAMBIA</ENTITY>
+						<CURRENCY>Zambian Kwacha</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="ZWL">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ZIMBABWE</ENTITY>
+						<CURRENCY>Zimbabwe Dollar</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XBA">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ZZ01_Bond Markets Unit European_EURCO</ENTITY>
+						<CURRENCY>Bond Markets Unit European Composite Unit (EURCO)</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XBB">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ZZ02_Bond Markets Unit European_EMU-6</ENTITY>
+						<CURRENCY>Bond Markets Unit European Monetary Unit (E.M.U.-6)</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XBC">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ZZ03_Bond Markets Unit European_EUA-9</ENTITY>
+						<CURRENCY>Bond Markets Unit European Unit of Account 9 (E.U.A.-9)</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XBD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ZZ04_Bond Markets Unit European_EUA-17</ENTITY>
+						<CURRENCY>Bond Markets Unit European Unit of Account 17 (E.U.A.-17)</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XFU">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ZZ05_UIC-Franc</ENTITY>
+						<CURRENCY>UIC-Franc</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XTS">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ZZ06_Testing_Code</ENTITY>
+						<CURRENCY>Codes specifically reserved for testing purposes</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XXX">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ZZ07_No_Currency</ENTITY>
+						<CURRENCY>The codes assigned for transactions where no currency is involved</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XAU">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ZZ08_Gold</ENTITY>
+						<CURRENCY>Gold</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XPD">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ZZ09_Palladium</ENTITY>
+						<CURRENCY>Palladium</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XPT">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ZZ10_Platinum</ENTITY>
+						<CURRENCY>Platinum</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+			<xsd:enumeration value="XAG">
+				<xsd:annotation>
+					<xsd:documentation>
+						<ENTITY>ZZ11_Silver</ENTITY>
+						<CURRENCY>Silver</CURRENCY>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:enumeration>
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema>

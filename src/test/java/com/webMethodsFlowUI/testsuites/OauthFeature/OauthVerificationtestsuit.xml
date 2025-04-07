@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuite">
+  <test  name="OauthVerification">
+    <classes>
+     <class name="com.webMethodsFlowUI.testsuites.OauthFeature.OauthVerification"/>
+
+     
+    </classes>
+  </test>
+</suite> <!-- Suite -->

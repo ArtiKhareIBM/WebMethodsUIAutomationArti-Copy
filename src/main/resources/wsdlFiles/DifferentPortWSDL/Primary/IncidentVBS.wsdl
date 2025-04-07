@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--(c) Vodafone Group Services Limited. All rights reserved.
+This document comprises proprietary and confidential information and copyright material belonging to Vodafone Group Services Limited.
+Other than as permitted by law, no part of this document may be reproduced, adapted, or distributed, in any form or by any means, without
+the prior written consent of Vodafone Group Services Limited.
+The information in this document is subject to change without notice.
+All trademarks acknowledged.
+Vodafone Group Services Limited - Confidential-->
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wssem="http://lsdis.cs.uga.edu/projects/meteor-s/wsdl-s/" xmlns:soap11="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:vbm="http://group.vodafone.com/schema/vbm/service/incident/v1" xmlns:vbs="http://group.vodafone.com/contract/vbs/service/incident/v1" xmlns:vfo="http://group.vodafone.com/contract/vfo/fault/v1" xmlns:vho="http://group.vodafone.com/contract/vho/header/v1" name="Incident" targetNamespace="http://group.vodafone.com/contract/vbs/service/incident/v1">
+  <wsdl:documentation>
+		The purpose of the Incident service is to provide a capability to Vodafone consumers (Customers, Users and Resources) to create/log new Incidents or update existing ones in the Incident Management system in order to restore the normal service as quickly as possible, and to minimise the adverse impact on business operations. Synchronising Incidents from different backend systems is also a requirement for this service. However, the escalation, investigation and resolution
+		processes are out of scope
+		for this service.
+		Version V1.0
+	</wsdl:documentation>
+  <!-- Show support for WS-Policy and the attachment of policy assertions -->
+  <wsp:UsingPolicy wsdl:Required="true"/>
+  <!-- The categorisation of the service as defined by the service architecture -->
+  <wssem:category name="EntityService" taxonomyURI="http://group.vodafone.com/iCoE/Taxonomy.owl#"/>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://group.vodafone.com/contract/vbs/service/incident/v1" elementFormDefault="qualified">
+      <xsd:import namespace="http://group.vodafone.com/schema/vbm/service/incident/v1" schemaLocation="../../../../VBO/Service/Incident/V1/IncidentVBM.xsd"/>
+      <xsd:import namespace="http://group.vodafone.com/contract/vfo/fault/v1" schemaLocation="../../../../VBO/Common/V1/Fault.xsd"/>
+      <xsd:import namespace="http://group.vodafone.com/contract/vho/header/v1" schemaLocation="../../../../VBO/Common/V1/Header.xsd"/>
+    </xsd:schema>
+  </wsdl:types>
+  <!--Service Operations Message Structures -->
+  <wsdl:message name="CreateIncidentReqMessage">
+    <wsdl:documentation>
+			This message is used as the request payload to the CreateIncident operation
+		</wsdl:documentation>
+    <wsdl:part name="IncidentDetails" element="vbm:CreateIncidentVBMRequest"/>
+  </wsdl:message>
+  <wsdl:message name="CreateIncidentRespMessage">
+    <wsdl:documentation>
+			This message is used as the response payload to the CreateIncident operation
+		</wsdl:documentation>
+    <wsdl:part name="IncidentDetails" element="vbm:CreateIncidentVBMResponse"/>
+  </wsdl:message>
+  <wsdl:message name="UpdateIncidentReqMessage">
+    <wsdl:documentation>
+			This message is used as the request payload to the UpdateIncident operation
+		</wsdl:documentation>
+    <wsdl:part name="IncidentDetails" element="vbm:UpdateIncidentVBMRequest"/>
+  </wsdl:message>
+  <wsdl:message name="UpdateIncidentRespMessage">
+    <wsdl:documentation>
+			This message is used as the response payload to the UpdateIncident operation
+		</wsdl:documentation>
+    <wsdl:part name="IncidentDetails" element="vbm:UpdateIncidentVBMResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetIncidentListReqMessage">
+    <wsdl:documentation>
+			This message is used as the request payload to the GetIncidentList operation
+		</wsdl:documentation>
+    <wsdl:part name="IncidentCriteria" element="vbm:GetIncidentListVBMRequest"/>
+  </wsdl:message>
+  <wsdl:message name="GetIncidentListRespMessage">
+    <wsdl:documentation>
+			This message is used as the response payload to the GetIncidentList operation
+		</wsdl:documentation>
+    <wsdl:part name="IncidentList" element="vbm:GetIncidentListVBMResponse"/>
+  </wsdl:message>
+  <wsdl:message name="SyncIncidentReqMessage">
+    <wsdl:documentation>
+			This message is used as the request payload to the SyncIncident operation
+		</wsdl:documentation>
+    <wsdl:part name="IncidentDetails" element="vbm:SyncIncidentVBMRequest"/>
+  </wsdl:message>
+  <wsdl:message name="SyncIncidentRespMessage">
+    <wsdl:documentation>
+			This message is used as the response payload to the SyncIncident operation
+		</wsdl:documentation>
+    <wsdl:part name="IncidentDetails" element="vbm:SyncIncidentVBMResponse"/>
+  </wsdl:message>
+  <wsdl:message name="NotifyIncidentReqMessage">
+    <wsdl:documentation>
+			This message is used as the request payload to the NotifyIncident operation
+		</wsdl:documentation>
+    <wsdl:part name="IncidentCriteria" element="vbm:NotifyIncidentVBMRequest"/>
+  </wsdl:message>
+  <wsdl:message name="GetIncidentReportReqMessage">
+    <wsdl:documentation>
+			This message is used as the request payload to the GetIncidentReport operation
+		</wsdl:documentation>
+    <wsdl:part name="IncidentReportCriteria" element="vbm:GetIncidentReportVBMRequest"/>
+  </wsdl:message>
+  <wsdl:message name="GetIncidentReportRespMessage">
+    <wsdl:documentation>
+			This message is used as the response payload to the GetIncidentReport operation
+		</wsdl:documentation>
+    <wsdl:part name="IncidentReportResult" element="vbm:GetIncidentReportVBMResponse"/>
+  </wsdl:message>
+  <!--Supporting Messages-->
+  <wsdl:message name="VodafoneFault">
+    <wsdl:documentation>
+			This message is used for propagating Error Context and Error Message
+		</wsdl:documentation>
+    <wsdl:part name="VodafoneFault" element="vfo:Fault"/>
+  </wsdl:message>
+  <wsdl:message name="MessageHeaders">
+    <wsdl:documentation>
+			This message is used as the header for SOAP request
+		</wsdl:documentation>
+    <wsdl:part name="Source" element="vho:Source"/>
+    <wsdl:part name="Correlation" element="vho:Correlation"/>
+    <wsdl:part name="Cache" element="vho:Cache"/>
+    <wsdl:part name="ServiceDocumentation" element="vho:ServiceDocumentation"/>
+    <wsdl:part name="ResultStatus" element="vho:ResultStatus"/>
+    <wsdl:part name="Destination" element="vho:Destination"/>
+    <wsdl:part name="QueryResult" element="vho:QueryResult"/>
+  </wsdl:message>
+  <wsdl:portType name="IncidentInterface">
+    <wsdl:documentation>
+			This interface contains operations for the Incident API
+		</wsdl:documentation>
+    <wsdl:operation name="GetIncidentList">
+      <wsdl:documentation>
+				This operation is used to GetIncidentList
+			</wsdl:documentation>
+      <wsdl:input name="GetIncidentListRequest" message="vbs:GetIncidentListReqMessage" wsaw:Action="http://group.vodafone.com/contract/vbs/service/incident/v1/get-list"/>
+      <wsdl:output name="GetIncidentListResponse" message="vbs:GetIncidentListRespMessage"/>
+      <wsdl:fault name="VodafoneFault" message="vbs:VodafoneFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="CreateIncident">
+      <wsdl:documentation>
+				This operation is used to CreateIncident
+			</wsdl:documentation>
+      <wsdl:input name="CreateIncidentRequest" message="vbs:CreateIncidentReqMessage" wsaw:Action="http://group.vodafone.com/contract/vbs/service/incident/v1/create"/>
+      <wsdl:output name="CreateIncidentResponse" message="vbs:CreateIncidentRespMessage"/>
+      <wsdl:fault name="VodafoneFault" message="vbs:VodafoneFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateIncident">
+      <wsdl:documentation>
+				This operation is used to UpdateIncident
+			</wsdl:documentation>
+      <wsdl:input name="UpdateIncidentRequest" message="vbs:UpdateIncidentReqMessage" wsaw:Action="http://group.vodafone.com/contract/vbs/service/incident/v1/update"/>
+      <wsdl:output name="UpdateIncidentResponse" message="vbs:UpdateIncidentRespMessage"/>
+      <wsdl:fault name="VodafoneFault" message="vbs:VodafoneFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="SyncIncident">
+      <wsdl:documentation>
+				This operation is used to SyncIncident
+			</wsdl:documentation>
+      <wsdl:input name="SyncIncidentRequest" message="vbs:SyncIncidentReqMessage" wsaw:Action="http://group.vodafone.com/contract/vbs/service/incident/v1/sync"/>
+      <wsdl:output name="SyncIncidentResponse" message="vbs:SyncIncidentRespMessage"/>
+      <wsdl:fault name="VodafoneFault" message="vbs:VodafoneFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetIncidentReport">
+      <wsdl:documentation>
+				This operation is used to GetIncidentReport
+			</wsdl:documentation>
+      <wsdl:input name="GetIncidentReportRequest" message="vbs:GetIncidentReportReqMessage" wsaw:Action="http://group.vodafone.com/contract/vbs/service/incident/v1/get-report"/>
+      <wsdl:output name="GetIncidentReportResponse" message="vbs:GetIncidentReportRespMessage"/>
+      <wsdl:fault name="VodafoneFault" message="vbs:VodafoneFault"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IncidentEventInterface">
+    <wsdl:documentation>
+			This interface contains operations for the Incident Event API
+		</wsdl:documentation>
+    <wsdl:operation name="NotifyIncident">
+      <wsdl:documentation>
+				This operation is used to NotifyIncident
+			</wsdl:documentation>
+      <wsdl:input name="NotifyIncidentRequest" message="vbs:NotifyIncidentReqMessage" wsaw:Action="http://group.vodafone.com/contract/vbs/service/incident/v1/notify"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="IncidentInterface-SOAP11-HTTPBinding" type="vbs:IncidentInterface">
+    <wsdl:documentation>
+			This binding supports a SOAP 1.1 message over an HTTP/1.1 protocol
+		</wsdl:documentation>
+    <soap11:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <!-- Use WS-Addressing v1.0 -->
+    <!-- wsaw:UsingAddressing wsdl:required="true"/ -->
+    <wsdl:operation name="CreateIncident">
+      <soap11:operation soapAction="http://group.vodafone.com/contract/vbs/service/incident/v1/create" style="document"/>
+      <wsdl:input name="CreateIncidentRequest">
+        <!--
+					Require that messages contain some custom headers for tracking, routing, auditing.
+				-->
+        <soap11:header message="vbs:MessageHeaders" part="Source" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Correlation" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Cache" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Destination" use="literal"/>
+        <soap11:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="CreateIncidentResponse">
+        <!--
+					Require that messages contain some custom headers for tracking, routing, auditing.
+				-->
+        <soap11:header message="vbs:MessageHeaders" part="Correlation" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Cache" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="ServiceDocumentation" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="ResultStatus" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Destination" use="literal"/>
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="VodafoneFault">
+        <soap11:fault name="VodafoneFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateIncident">
+      <soap11:operation soapAction="http://group.vodafone.com/contract/vbs/service/incident/v1/update" style="document"/>
+      <wsdl:input name="UpdateIncidentRequest">
+        <!--
+					Require that messages contain some custom headers for tracking, routing, auditing.
+				-->
+        <soap11:header message="vbs:MessageHeaders" part="Source" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Correlation" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Cache" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Destination" use="literal"/>
+        <soap11:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="UpdateIncidentResponse">
+        <!--
+					Require that messages contain some custom headers for tracking, routing, auditing.
+				-->
+        <soap11:header message="vbs:MessageHeaders" part="Correlation" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Cache" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="ServiceDocumentation" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="ResultStatus" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Destination" use="literal"/>
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="VodafoneFault">
+        <soap11:fault name="VodafoneFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetIncidentList">
+      <soap11:operation soapAction="http://group.vodafone.com/contract/vbs/service/incident/v1/get-list" style="document"/>
+      <wsdl:input name="GetIncidentListRequest">
+        <!--
+					Require that messages contain some custom headers for tracking, routing, auditing.
+				-->
+        <soap11:header message="vbs:MessageHeaders" part="Source" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Correlation" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Cache" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Destination" use="literal"/>
+        <soap11:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetIncidentListResponse">
+        <!--
+					Require that messages contain some custom headers for tracking, routing, auditing.
+				-->
+        <soap11:header message="vbs:MessageHeaders" part="Correlation" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Cache" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="ServiceDocumentation" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="ResultStatus" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Destination" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="QueryResult" use="literal"/>
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="VodafoneFault">
+        <soap11:fault name="VodafoneFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SyncIncident">
+      <soap11:operation soapAction="http://group.vodafone.com/contract/vbs/service/incident/v1/sync" style="document"/>
+      <wsdl:input name="SyncIncidentRequest">
+        <!--
+					Require that messages contain some custom headers for tracking, routing, auditing.
+				-->
+        <soap11:header message="vbs:MessageHeaders" part="Source" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Correlation" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Cache" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Destination" use="literal"/>
+        <soap11:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="SyncIncidentResponse">
+        <!--
+					Require that messages contain some custom headers for tracking, routing, auditing.
+				-->
+        <soap11:header message="vbs:MessageHeaders" part="Correlation" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Cache" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="ServiceDocumentation" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="ResultStatus" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Destination" use="literal"/>
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="VodafoneFault">
+        <soap11:fault name="VodafoneFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetIncidentReport">
+      <soap11:operation soapAction="http://group.vodafone.com/contract/vbs/service/incident/v1/get-report" style="document"/>
+      <wsdl:input name="GetIncidentReportRequest">
+        <!--
+					Require that messages contain some custom headers for tracking, routing, auditing.
+				-->
+        <soap11:header message="vbs:MessageHeaders" part="Source" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Correlation" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Cache" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Destination" use="literal"/>
+        <soap11:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetIncidentReportResponse">
+        <!--
+					Require that messages contain some custom headers for tracking, routing, auditing.
+				-->
+        <soap11:header message="vbs:MessageHeaders" part="Correlation" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Cache" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="ServiceDocumentation" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="ResultStatus" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Destination" use="literal"/>
+        <soap11:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="VodafoneFault">
+        <soap11:fault name="VodafoneFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="IncidentEventInterface-SOAP11-HTTPBinding" type="vbs:IncidentEventInterface">
+    <wsdl:documentation>
+			This binding supports a SOAP 1.1 message over an HTTP/1.1 protocol
+		</wsdl:documentation>
+    <soap11:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <!-- Use WS-Addressing v1.0 -->
+    <!-- wsaw:UsingAddressing wsdl:required="true"/ -->
+    <wsdl:operation name="NotifyIncident">
+      <soap11:operation soapAction="http://group.vodafone.com/contract/vbs/service/incident/v1/notify" style="document"/>
+      <wsdl:input name="NotifyIncidentRequest">
+        <!--
+					Require that messages contain some custom headers for tracking, routing, auditing.
+				-->
+        <soap11:header message="vbs:MessageHeaders" part="Source" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Correlation" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Cache" use="literal"/>
+        <soap11:header message="vbs:MessageHeaders" part="Destination" use="literal"/>
+        <soap11:body use="literal"/>
+      </wsdl:input>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="VS_Incident">
+    <wsdl:port name="VS_IncidentCOB1https" binding="vbs:IncidentInterface-SOAP11-HTTPBinding">
+      <soap11:address location="https://webservices-cob1.cw.com/ws/VS_Incident_Consumer"/>
+    </wsdl:port>
+    <wsdl:port name="VS_IncidentPRODhttps" binding="vbs:IncidentInterface-SOAP11-HTTPBinding">
+      <soap11:address location="https://webservices.cw.com/ws/VS_Incident_Consumer"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

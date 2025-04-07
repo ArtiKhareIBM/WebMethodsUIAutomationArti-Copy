@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:cmn="http://group.vodafone.com/schema/common/v1"
+	xmlns:tns="http://group.vodafone.com/schema/common/batch/v1"
+	targetNamespace="http://group.vodafone.com/schema/common/batch/v1"
+	xmlns:ccts="urn:un:unece:uncefact:documentation:standard:CoreComponentType:2"
+	elementFormDefault="qualified"
+	attributeFormDefault="unqualified"
+	version="1.0">
+
+	<xsd:import
+		namespace="urn:un:unece:uncefact:documentation:standard:CoreComponentType:2"
+		schemaLocation="CoreComponentType_2p0.xsd" />
+
+	<xsd:import
+		namespace="http://group.vodafone.com/schema/common/v1"
+		schemaLocation="./CodeLists.xsd" />
+
+	<xsd:annotation>
+		<xsd:documentation>
+			<p>Schema Definition for the XML representation of Managed Files and ETL.</p>
+		</xsd:documentation>
+	</xsd:annotation>
+
+
+
+	<xsd:complexType name="BaseVMFType">
+		<xsd:annotation>
+			<xsd:documentation></xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element
+				name="Header"
+				type="tns:BaseVMFHeaderType"
+				minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The header meta-data for the managed file transfer or ETL.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="BaseVMFHeaderType">
+		<xsd:annotation>
+			<xsd:documentation>The header meta-data for the managed file transfer or ETL.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element
+				name="Basic"
+				type="tns:VMFHeaderBasicType"
+				minOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>The basic core information about the managed file.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element
+				name="Addressing"
+				type="tns:VMFHeaderAddressingType"
+				minOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>The addressing information for the file including source and destination.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element
+				name="Source"
+				type="tns:VMFHeaderSourceType"
+				minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The source system meta-data that created and sent the file.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element
+				name="Destination"
+				type="tns:VMFHeaderDestinationType"
+				minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The destination system meta-data that is the target and recipient of the file.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element
+				name="Batch"
+				type="tns:VMFHeaderBatchType"
+				minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The batch details within which the file is taking part.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<xsd:any
+				namespace="##other"
+				processContents="lax"
+				minOccurs="0"
+				maxOccurs="unbounded">
+				<xsd:annotation>
+					<xsd:documentation>Allow the header to accomodate other fields in the runtime.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:any>
+		</xsd:sequence>
+	</xsd:complexType>
+
+
+	<xsd:complexType name="VMFHeaderBasicType">
+		<xsd:annotation>
+			<xsd:documentation>The basic core information about the managed file.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element
+				name="ContentTypeCode"
+				type="ccts:CodeType"
+				minOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>The mime type of the managed file transfer, the specific type of the VBO being carried. For example: application/vnd+vodafone.customer-interaction.v1+xml-batch</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element
+				name="ContentVersionID"
+				type="ccts:IDType"
+				minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The version of the schema that defines the VMF data. If the version number is included in the content-type then this must be the same value.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element
+				name="ContentEncodingCode"
+				type="ccts:CodeType"
+				minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The character encoding of the data, the default is UTF-8.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element
+				name="CreatedDateTime"
+				type="ccts:DateTimeType"
+				minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The date and time the file was created from the source party.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element
+				name="CreatedByID"
+				type="ccts:IDType"
+				minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The identifier of the user that created the file.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element
+				name="LastModifiedDateTime"
+				type="ccts:DateTimeType"
+				minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The date and time the file was last modified by the source or an intermediary party.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element
+				name="LastModifiedByID"
+				type="ccts:IDType"
+				minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The identifier of the user that last modified the file.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<xsd:any
+				namespace="##other"
+				processContents="lax"
+				minOccurs="0"
+				maxOccurs="unbounded">
+				<xsd:annotation>
+					<xsd:documentation>Allow the header to accomodate other fields in the runtime.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:any>
+
+		</xsd:sequence>
+	</xsd:complexType>
+
+
+	<xsd:complexType name="VMFHeaderAddressingType">
+		<xsd:annotation>
+			<xsd:documentation>The addressing information for the file.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+
+			<xsd:element
+				name="ID"
+				type="ccts:IDType"
+				minOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>The identifier of the of the managed file and the data held within this segment of a batch run. Must conform to RFC4122 and be a Type 4 UUID.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<xsd:element
+				name="Action"
+				type="ccts:URIType"
+				minOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>An identifier of the operation (Action) to take on the target endpoint.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<xsd:element
+				name="ReplyTo"
+				type="ccts:URIType"
+				minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The address of an endpoint to send a reply to for the source when processing on the target has completed.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<xsd:element
+				name="FaultTo"
+				type="ccts:URIType"
+				minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>ddress of an endpoint to send faults generated by the target system(s)</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<xsd:element
+				name="RelatesTo"
+				type="ccts:IDType"
+				minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The identifier of a related managed file. Normally the request that generated a response.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<xsd:any
+				namespace="##other"
+				processContents="lax"
+				minOccurs="0"
+				maxOccurs="unbounded">
+				<xsd:annotation>
+					<xsd:documentation>Allow the header to accomodate other fields in the runtime.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:any>
+		</xsd:sequence>
+	</xsd:complexType>
+
+
+	<xsd:complexType name="VMFHeaderSourceType">
+		<xsd:annotation>
+			<xsd:documentation>The source system meta-data that created and sent the file.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+
+			<xsd:element
+				name="SystemID"
+				type="ccts:IDType"
+				minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The logical name of the source system, use a COBRA level 3 identifier.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<xsd:element
+				name="SystemCode"
+				type="ccts:CodeType"
+				minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The logical name of the source system, use a COBRA level 3 identifier.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<xsd:element
+				name="DomainCode"
+				type="ccts:CodeType"
+				minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The domain of the source.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<xsd:element
+				name="MarketID"
+				minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The identifier of the local market or group. If a local market then use a ISO3166-Alpha2 Country Code, if Group then use "GX"</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:token">
+						<xsd:pattern value="[A-Z]{2}" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:element>
+
+			<xsd:element
+				name="CountryCode"
+				minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The ISO3166-Alpha2 country code of the source system.</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:token">
+						<xsd:pattern value="[A-Z]{2}" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:element>
+
+			<xsd:any
+				namespace="##other"
+				processContents="lax"
+				minOccurs="0"
+				maxOccurs="unbounded">
+				<xsd:annotation>
+					<xsd:documentation>Allow the header to accomodate other fields in the runtime.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:any>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="VMFHeaderDestinationType">
+		<xsd:annotation>
+			<xsd:documentation>The destination system meta-data that is the target and recipient of the file.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+
+			<xsd:element
+				name="SystemID"
+				type="ccts:IDType"
+				minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The logical name of the destination system, use a COBRA level 3 identifier.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<xsd:element
+				name="SystemCode"
+				type="ccts:CodeType"
+				minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The logical name of the destination system, use a COBRA level 3 identifier.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<xsd:element
+				name="DomainCode"
+				type="ccts:CodeType"
+				minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The domain of the target.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<xsd:element
+				name="MarketID"
+				minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The identifier of the local market or group. If a local market then use a ISO3166-Alpha2 Country Code, if Group then use "Group"</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:token">
+						<xsd:pattern value="[A-Z]{2}" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:element>
+
+			<xsd:element
+				name="CountryCode"
+				minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>The ISO3166-Alpha2 country code of the target system.</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:token">
+						<xsd:pattern value="[A-Z]{2}" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:element>
+
+			<xsd:any
+				namespace="##other"
+				processContents="lax"
+				minOccurs="0"
+				maxOccurs="unbounded">
+				<xsd:annotation>
+					<xsd:documentation>Allow the header to accomodate other fields in the runtime.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:any>
+		</xsd:sequence>
+	</xsd:complexType>
+
+
+	<xsd:complexType name="VMFHeaderBatchType">
+		<xsd:annotation>
+			<xsd:documentation>The batch details within which the file is taking part.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+
+			<xsd:element
+				name="BatchRunID"
+				type="ccts:IDType"
+				minOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>The unique Identifier of the batch run, this links each chunk in the run to each other.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<xsd:element
+				name="BatchRunTotal"
+				type="xsd:integer"
+				minOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>The total number of chunks in the batch run.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<xsd:element
+				name="BatchRunPosition"
+				type="xsd:integer"
+				minOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>The position within the set of chunks in the batch run.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<xsd:any
+				namespace="##other"
+				processContents="lax"
+				minOccurs="0"
+				maxOccurs="unbounded">
+				<xsd:annotation>
+					<xsd:documentation>Allow the header to accomodate other fields in the runtime.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:any>
+
+		</xsd:sequence>
+	</xsd:complexType>
+
+</xsd:schema>

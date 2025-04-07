@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuite">
+
+	<test name="RESTSOAPAPITestcases">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.testsuites.BVTBasicSanitySuite.RESTSOAPAPITestcases" />
+
+		</classes>
+	</test>
+
+	<test name="SalesForceCRMFlatFileConnector">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.testsuites.BVTBasicSanitySuite.SalesForceCRMFlatFileConnector" />
+
+		</classes>
+	</test>
+	<test name="SoapRESTConnectorTestCases">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.testsuites.BVTBasicSanitySuite.SoapRESTConnectorTestCases" />
+
+		</classes>
+	</test>
+	<test name="ReferenceDataTestSuite">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.testsuites.ReferenceData.ReferenceDataTestSuite" />
+
+		</classes>
+	</test>
+	<test name="DocTypeTestCases">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.testsuites.BVTBasicSanitySuite.DocTypeTestCases" />
+
+		</classes>
+	</test>
+
+	<test  name="CertificateVerification">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.twowaySSLCerticate.ClientCertificateVerification"/>
+
+
+		</classes>
+	</test>
+
+	<test  name="RESTAPIfromswaggerURLTestSuit">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.RESTAPI.RESTAPIfromswaggerURLTestSuit"/>
+
+		</classes>
+	</test>
+	<test name="DocTypeXSDTestCases">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.testsuites.BVTBasicSanitySuite.DocTypeXSDTestCases" />
+
+		</classes>
+	</test>
+	<test name="FlatfileWithManualFixedCreation">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.testsuites.BVTBasicSanitySuite.FlatfileWithManualFixedCreation" />
+
+		</classes>
+	</test>
+
+	<test name="FlatfileConnectorFromFixedLengthFileCreationTestsuite">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.testsuites.FlatfileApplication.FlatfileConnectorFromFixedLengthFileCreationTestsuite" />
+
+		</classes>
+	</test>
+
+	<test name="FlatfileConnectorFromFixedLengthFileCreationWithNoRecordIdentifierTestsuite">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.testsuites.FlatfileApplication.Level2.FlatfileConnectorFromFixedLengthFileCreationWithNoRecordIdentifierTestsuite" />
+
+		</classes>
+	</test>
+	<test name="FlatfileConnectorFromManualCreationWithNoRecordIdentifierTestsuite">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.testsuites.FlatfileApplication.Level2.FlatfileConnectorFromManualCreationWithNoRecordIdentifierTestsuite" />
+
+		</classes>
+	</test>
+	<test name="FlatfileConnectorFromSampleFileCreationWithNoRecordIdentiferTestsuite">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.testsuites.FlatfileApplication.Level2.FlatfileConnectorFromSampleFileCreationWithNoRecordIdentiferTestsuite" />
+
+		</classes>
+	</test>
+	<test name="FlatfileConnectorFromVariableLengthFileTestsuite">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.testsuites.FlatfileApplication.Level2.FlatfileConnectorFromVariableLengthFileTestsuite" />
+
+		</classes>
+	</test>
+	<test name="RestApiExecutionFromApplication">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.testsuites.BVTBasicSanitySuite.RestApiExecutionFromApplication" />
+
+		</classes>
+	</test>
+	<test name="RESTApplicationTestSuite">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.testsuites.RESTApplication.RESTApplicationTestSuite" />
+
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

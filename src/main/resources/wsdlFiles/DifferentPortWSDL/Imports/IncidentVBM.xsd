@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(c) Vodafone Group Services Limited. All rights reserved.
+This document comprises proprietary and confidential information and copyright material belonging to Vodafone Group Services Limited.
+Other than as permitted by law, no part of this document may be reproduced, adapted, or distributed, in any form or by any means, without
+the prior written consent of Vodafone Group Services Limited.
+The information in this document is subject to change without notice.
+All trademarks acknowledged.
+Vodafone Group Services Limited - Confidential-->
+<xsd:schema
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:tns="http://group.vodafone.com/schema/vbm/service/incident/v1"
+	xmlns:vbo="http://group.vodafone.com/schema/vbo/service/incident/v1"
+	targetNamespace="http://group.vodafone.com/schema/vbm/service/incident/v1"
+	xmlns:cmn="http://group.vodafone.com/schema/common/v1"
+	elementFormDefault="qualified"
+	attributeFormDefault="unqualified"
+	version="1.0">
+	<xsd:annotation>
+		<xsd:documentation>
+			<p>Vodafone Business Message Schema Definition for Incident</p>
+		</xsd:documentation>
+	</xsd:annotation>
+	<!-- ===================== Imports ============================ -->
+	<xsd:import
+		namespace="http://group.vodafone.com/schema/vbo/service/incident/v1"
+		schemaLocation="IncidentVBO.xsd" />
+	<xsd:import
+		namespace="http://group.vodafone.com/schema/common/v1"
+		schemaLocation="../../../Common/V1/CodeLists.xsd" />
+	<xsd:import
+		namespace="http://group.vodafone.com/schema/common/v1"
+		schemaLocation="../../../Common/V1/Meta.xsd" />
+
+	<xsd:complexType name="CreateIncidentVBMRequestType">
+		<xsd:annotation>
+			<xsd:documentation> Type definition for the CreateIncident request payload.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element
+				name="IncidentVBO"
+				type="vbo:IncidentVBOType" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:element
+		name="CreateIncidentVBMRequest"
+		type="tns:CreateIncidentVBMRequestType" />
+	<xsd:complexType name="CreateIncidentVBMResponseType">
+		<xsd:annotation>
+			<xsd:documentation> Type definition for the CreateIncident response payload.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element
+				name="IncidentVBO"
+				type="vbo:IncidentVBOType" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:element
+		name="CreateIncidentVBMResponse"
+		type="tns:CreateIncidentVBMResponseType" />
+
+	<xsd:complexType name="UpdateIncidentVBMRequestType">
+		<xsd:annotation>
+			<xsd:documentation> Type definition for the UpdateIncident request payload.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element
+				name="IncidentVBO"
+				type="vbo:IncidentVBOType" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:element
+		name="UpdateIncidentVBMRequest"
+		type="tns:UpdateIncidentVBMRequestType" />
+	<xsd:complexType name="UpdateIncidentVBMResponseType">
+		<xsd:annotation>
+			<xsd:documentation> Type definition for the UpdateIncident response payload.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element
+				name="IncidentVBO"
+				type="vbo:IncidentVBOType" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:element
+		name="UpdateIncidentVBMResponse"
+		type="tns:UpdateIncidentVBMResponseType" />
+
+
+	<xsd:complexType name="GetIncidentListVBMRequestType">
+		<xsd:annotation>
+			<xsd:documentation> Type definition for the GetIncidentList request payload.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="cmn:QueryType" />
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<xsd:element
+		name="GetIncidentListVBMRequest"
+		type="tns:GetIncidentListVBMRequestType" />
+	<xsd:complexType name="GetIncidentListVBMResponseType">
+		<xsd:annotation>
+			<xsd:documentation> Type definition for the GetIncidentList response payload.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element
+				name="IncidentVBO"
+				type="vbo:IncidentVBOType"
+				minOccurs="0"
+				maxOccurs="unbounded" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:element
+		name="GetIncidentListVBMResponse"
+		type="tns:GetIncidentListVBMResponseType" />
+
+	<xsd:complexType name="SyncIncidentVBMRequestType">
+		<xsd:annotation>
+			<xsd:documentation> Type definition for the SyncIncident request payload.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element
+				name="IncidentVBO"
+				type="vbo:IncidentVBOType" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:element
+		name="SyncIncidentVBMRequest"
+		type="tns:SyncIncidentVBMRequestType" />
+	<xsd:complexType name="SyncIncidentVBMResponseType">
+		<xsd:annotation>
+			<xsd:documentation> Type definition for the SyncIncident response payload.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element
+				name="IncidentVBO"
+				type="vbo:IncidentVBOType" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:element
+		name="SyncIncidentVBMResponse"
+		type="tns:SyncIncidentVBMResponseType" />
+
+	<xsd:complexType name="NotifyIncidentVBMRequestType">
+		<xsd:annotation>
+			<xsd:documentation> Type definition for the NotifyIncident request payload.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element
+				name="IncidentVBO"
+				type="vbo:IncidentVBOType" />
+		</xsd:sequence>
+		<xsd:attribute
+			name="eventCode"
+			type="cmn:EventCodeType" />
+	</xsd:complexType>
+
+	<xsd:element
+		name="NotifyIncidentVBMRequest"
+		type="tns:NotifyIncidentVBMRequestType" />
+
+	<xsd:complexType name="GetIncidentReportVBMRequestType">
+		<xsd:annotation>
+			<xsd:documentation> Type definition for the GetIncidentReport request payload.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="cmn:ReportSpecType" />
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element
+		name="GetIncidentReportVBMRequest"
+		type="tns:GetIncidentReportVBMRequestType" />
+
+	<xsd:complexType name="GetIncidentReportVBMResponseType">
+		<xsd:annotation>
+			<xsd:documentation> Type definition for the GetIncidentReport response payload.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="cmn:ReportType" />
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element
+		name="GetIncidentReportVBMResponse"
+		type="tns:GetIncidentReportVBMResponseType" />
+</xsd:schema>

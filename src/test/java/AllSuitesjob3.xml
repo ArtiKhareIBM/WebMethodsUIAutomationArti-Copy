@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="wMioTestSanitySuite">
+
+
+	<test name="SetContextIDAutomation">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.testsuites.NodejsConnector.SetContextIDAutomation" />
+
+		</classes>
+	</test>
+	<test name="PusherConnector">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.testsuites.NodejsConnector.PusherConnector" />
+
+		</classes>
+	</test>
+
+	<test name="PubnubConnector">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.testsuites.NodejsConnector.PubnubConnector" />
+
+		</classes>
+	</test>
+
+	<test name="CreateSOAPApplicationFromGenericURL">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.testsuites.SOAPApplication.CreateSOAPApplicationFromGenericURL" />
+
+		</classes>
+	</test>
+	<test  name="EditAssetInRestApi">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.RESTAPI.Level2.EditAssetInRestApi"/>
+
+		</classes>
+	</test>
+
+	<test name="DynamicConnection">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.Dynamicconnection.DynamicConnection"/>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test  name="keyAndTruststore">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.KeyStoreTrustStore.keyAndTruststore"/>
+		</classes>
+	</test>
+	
+	<test  name="Recipeverificationsuite">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.RecipeVerification.Recipeverificationsuite"/>
+		</classes>
+	</test>
+	
+	<test name="Customer issue">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.customerdefectsRegressionSuite.CustomerDefect_BIC_17340" />
+		</classes>
+	</test>
+	
+	<test name="Variable Transaction">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.VariableTransaction.VariableTransactionSuite" />
+		</classes>
+	</test>
+	
+	<test name="Restart Resume">
+       		 <classes>
+           	 	<class name="com.webMethodsFlowUI.testsuites.RestartResume.RestartResumeTestSuite" />
+       		 </classes>
+    	</test>
+	
+	<test name="Partner Certficate 1">
+        	<classes>
+           	 	<class name="com.webMethodsFlowUI.PartnerCertficate.PartnerCertficate" />
+       	 	</classes>
+    </test>
+	
+	<test name="Partner Certficate">
+        	<classes>
+           	 	<class name="com.webMethodsFlowUI.PartnerCertficate.PartnerCertficateSoapConnector" />
+       	 	</classes>
+    </test>
+    
+	<test name="SOAPAPIfromURL">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.SOAPAPI.SOAPAPIfromURL" />
+		</classes>
+	</test>
+
+	<test name="SOAPAPIfromFile">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.SOAPAPI.SOAPAPIfromFile" />
+		</classes>
+	</test>
+	
+	<test name="MIME_Multipart">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.MIME_MultipartTestCases.MimeMultipartTestSuite" />
+		</classes>
+	</test>
+	
+	<test name="BulkRestart">
+		<classes>
+			<class name="com.webMethodsFlowUI.Integration.testsuites.BulkRestartOfFlowServices.BulkRestartOfFlowServices" />
+		</classes>
+	</test>
+	
+	<test name="Metering Insight">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.MeteringInsight.MeteringInsightTestSuite" />
+		</classes>
+	</test>
+	
+	
+	<test name="FlatfileApplication">
+        <classes>
+            <class name="com.webMethodsFlowUI.testsuites.FlatfileApplication.FlatfileUiEnhancementTestSuite" />
+        </classes>
+    </test>
+	
+	<test name="RESTAPIImportwithUrlBasicAuth">
+        <classes>
+            <class name="com.webMethodsFlowUI.testsuites.ImportRestApiWithUrlBasicAuth.RESTAPIImportwithUrlBasicAuth" />
+        </classes>
+    </test>
+	
+	<test name="RESTAPIusingrestconnector">
+        <classes>
+            <class name="com.webMethodsFlowUI.testsuites.ImportRestApiWithUrlBasicAuth.RESTAPIusingrestconnector" />
+        </classes>
+    </test>
+    
+    <test name="FTPConnectorTestSuite">
+        <classes>
+            <class name="com.webMethodsFlowUI.testsuites.Connectors.FTPConnectorTestSuite" />
+        </classes>
+    </test>
+    
+    <test name="SFTPv1ConnectorTestSuite">
+        <classes>
+            <class name="com.webMethodsFlowUI.testsuites.Connectors.SFTPv1ConnectorTestSuite" />
+        </classes>
+    </test>	
+    
+    <test name="SMTPConnectorTestSuite">
+        <classes>
+            <class name="com.webMethodsFlowUI.testsuites.Connectors.SMTPConnectorTestSuite" />
+        </classes>
+    </test>	
+    	
+</suite> <!-- Suite -->

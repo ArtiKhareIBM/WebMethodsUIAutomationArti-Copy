@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="wMioTestSanitySuite" parallel="tests" thread-count="1">
+
+  	<test  name="RESTApplicationTestSuite">
+    	<classes>
+     		<class 
+     			name="com.webMethodsFlowUI.testsuites.RESTApplication.RESTApplicationTestSuite"/>
+    	</classes>
+  	</test> 
+ 
+	<test name="RESTAPIFromScratchExecutionTestSuite">
+		<classes>
+			<class
+				name="com.webMethodsFlowUI.testsuites.RESTAPI.RESTAPIFromScratchExecutionTestSuite" />
+		</classes>
+	</test>
+	
+	<test name="SOAPAPIfromFile">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.SOAPAPI.SOAPAPIfromFile" />
+		</classes>
+	</test>
+	
+	<test  name="SOAPAPIFromScratchTestSuite">
+		<classes>
+
+			<class name="com.webMethodsFlowUI.testsuites.SOAPAPI.SOAPAPIFromScratchTestSuite" />
+
+		</classes>
+	</test>
+	
+	<test name="ExportImportProject">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.ExportImportProject.ExportImportProject" />
+		</classes>
+	</test>
+	
+	<test name="Listener">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.testsuites.Listener.Listener" />
+		</classes>
+	</test>
+	
+	<test name="PartnerCertificate">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.PartnerCertficate.PartnerCertficate" />
+		</classes>
+	</test>
+	
+
+</suite> <!-- Suite -->

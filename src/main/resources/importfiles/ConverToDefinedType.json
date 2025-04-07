@@ -1,0 +1,125 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "swagger rest api with convert defined type",
+    "version" : "1",
+    "title" : "ConverToDefinedType"
+  },
+  "host" : "ipaasdev.int-aw-us1.webmethods-int.io",
+  "basePath" : "/integration/restv2/development/fl943490266c5182d4a7e5ce/ConverToDefinedType",
+  "schemes" : [ "https" ],
+  "consumes" : [ "application/json" ],
+  "produces" : [ "application/json" ],
+  "paths" : {
+    "/convert" : {
+      "post" : {
+        "operationId" : "convert_POST_1",
+        "parameters" : [ {
+          "in" : "body",
+          "name" : "doc",
+          "required" : true,
+          "schema" : {
+            "$ref" : "#/definitions/doc"
+          }
+        } ],
+        "security" : [ {
+          "_basicAuth" : [ ]
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "OK",
+            "schema" : {
+              "$ref" : "#/definitions/convert_POST_response_1"
+            }
+          },
+          "401" : {
+            "description" : "Access Denied"
+          }
+        }
+      }
+    }
+  },
+  "securityDefinitions" : {
+    "_basicAuth" : {
+      "type" : "basic"
+    }
+  },
+  "definitions" : {
+    "doc" : {
+      "required" : [ "boolArray", "boolVar", "dateArray", "datestr", "doubleVar", "floatArray", "floatVar", "int32Var", "int64Var", "int64VarCons", "intArray", "str", "strArray", "strEnum" ],
+      "properties" : {
+        "int64Var" : {
+          "type" : "integer",
+          "format" : "int64"
+        },
+        "int64VarCons" : {
+          "type" : "integer",
+          "format" : "int64"
+        },
+        "int32Var" : {
+          "type" : "integer",
+          "format" : "int64"
+        },
+        "doubleVar" : {
+          "type" : "integer",
+          "format" : "int64"
+        },
+        "floatVar" : {
+          "type" : "integer",
+          "format" : "int64"
+        },
+        "boolVar" : {
+          "type" : "boolean"
+        },
+        "str" : {
+          "type" : "string"
+        },
+        "strEnum" : {
+          "type" : "string"
+        },
+        "strArray" : {
+          "type" : "array",
+          "items" : {
+            "type" : "string"
+          }
+        },
+        "boolArray" : {
+          "type" : "array",
+          "items" : {
+            "type" : "boolean"
+          }
+        },
+        "intArray" : {
+          "type" : "array",
+          "items" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        },
+        "floatArray" : {
+          "type" : "array",
+          "items" : {
+            "type" : "string"
+          }
+        },
+        "datestr" : {
+          "type" : "string"
+        },
+        "dateArray" : {
+          "type" : "array",
+          "items" : {
+            "type" : "string"
+          }
+        }
+      }
+    },
+    "convert_POST_response_1" : {
+      "required" : [ "outputjson" ],
+      "properties" : {
+        "outputjson" : {
+          "type" : "string"
+        }
+      }
+    }
+  }
+}

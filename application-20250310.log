@@ -1,0 +1,1299 @@
+2025-03-10 11:32:20.896 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - ChromeDriver: chrome on windows (1971e6a2684d6f2319e16048214568d2)
+2025-03-10 11:32:20.900 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Initilize Web Driver: 2076627578
+2025-03-10 11:32:20.933 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Navigating to URLhttps://originawsdev2.dev-int-aws-us.webmethods.io/
+2025-03-10 11:32:23.390 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify username text field is visible
+2025-03-10 11:32:34.049 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering user Name: y508839
+2025-03-10 11:32:34.322 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Password: Artiorigindev2-2025!
+2025-03-10 11:32:36.665 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click on Login Button
+2025-03-10 11:32:42.823 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 11:32:42.958 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 11:32:43.077 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify Home page greet message is visible
+2025-03-10 11:32:49.154 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify create project plus button is visible
+2025-03-10 11:38:54.953 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - ChromeDriver: chrome on windows (76821603f35f7747bc6cf6addb93fec7)
+2025-03-10 11:38:54.958 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Initilize Web Driver: 665641137
+2025-03-10 11:38:54.996 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Navigating to URLhttps://originawsdev2.dev-int-aws-us.webmethods.io/
+2025-03-10 11:38:57.415 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify username text field is visible
+2025-03-10 11:39:05.797 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering user Name: y508839
+2025-03-10 11:39:06.018 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Password: Artiorigindev2-2025!
+2025-03-10 11:39:08.309 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click on Login Button
+2025-03-10 11:39:12.241 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 11:39:12.390 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 11:39:12.520 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify Home page greet message is visible
+2025-03-10 11:39:17.920 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify create project plus button is visible
+2025-03-10 11:39:18.447 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 11:39:18.447 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 11:41:35.862 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - ChromeDriver: chrome on windows (ee4293121f716658e4a68525df8ef1c4)
+2025-03-10 11:41:35.867 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Initilize Web Driver: 1790229151
+2025-03-10 11:41:35.901 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Navigating to URLhttps://originawsdev2.dev-int-aws-us.webmethods.io/
+2025-03-10 11:41:37.346 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify username text field is visible
+2025-03-10 11:41:45.285 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering user Name: y508839
+2025-03-10 11:41:45.480 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Password: Artiorigindev2-2025!
+2025-03-10 11:41:47.715 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click on Login Button
+2025-03-10 11:41:51.433 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 11:41:51.578 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 11:41:51.693 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify Home page greet message is visible
+2025-03-10 11:41:56.006 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify create project plus button is visible
+2025-03-10 11:41:57.549 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 11:41:57.549 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 11:41:57.735 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 11:41:58.120 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 11:41:58.120 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 11:41:58.267 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 11:41:58.633 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 11:41:58.633 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 11:41:58.801 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 11:41:59.102 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 11:41:59.103 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcGithubCtrl_Arti
+2025-03-10 14:00:46.959 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - ChromeDriver: chrome on windows (bc182f8a83363a4edf977dabebd22778)
+2025-03-10 14:00:46.963 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Initilize Web Driver: 1126112943
+2025-03-10 14:00:46.997 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Navigating to URLhttps://originawsdev2.dev-int-aws-us.webmethods.io/
+2025-03-10 14:00:48.350 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify username text field is visible
+2025-03-10 14:00:56.503 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering user Name: y508839
+2025-03-10 14:00:56.693 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Password: Artiorigindev2-2025!
+2025-03-10 14:00:58.919 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click on Login Button
+2025-03-10 14:01:02.747 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 14:01:02.922 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 14:01:03.096 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify Home page greet message is visible
+2025-03-10 14:01:09.334 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify create project plus button is visible
+2025-03-10 14:01:09.887 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 14:01:09.888 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:01:10.078 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 14:01:10.466 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 14:01:10.467 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:01:10.606 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 14:01:10.984 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 14:01:10.984 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:01:11.156 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 14:01:11.468 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 14:01:11.468 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcGithubCtrl_Arti
+2025-03-10 14:03:29.028 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - ChromeDriver: chrome on windows (17908d2442516044c1bb73c6ecd80e3f)
+2025-03-10 14:03:29.033 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Initilize Web Driver: 1716411886
+2025-03-10 14:03:29.072 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Navigating to URLhttps://originawsdev2.dev-int-aws-us.webmethods.io/
+2025-03-10 14:03:29.640 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify username text field is visible
+2025-03-10 14:03:39.024 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering user Name: y508839
+2025-03-10 14:03:39.247 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Password: Artiorigindev2-2025!
+2025-03-10 14:03:41.575 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click on Login Button
+2025-03-10 14:03:46.702 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 14:03:46.908 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 14:03:47.033 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify Home page greet message is visible
+2025-03-10 14:03:53.285 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify create project plus button is visible
+2025-03-10 14:03:54.842 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 14:03:54.842 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:03:55.003 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 14:03:55.400 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 14:03:55.400 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:03:55.544 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 14:03:55.925 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 14:03:55.925 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:03:56.124 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 14:03:56.529 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 14:03:56.530 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcGithubCtrl_Arti
+2025-03-10 14:03:56.878 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Username
+2025-03-10 14:03:56.878 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the User name ArtiKhareIBM
+2025-03-10 14:03:57.338 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 14:03:57.361 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 14:03:57.652 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 14:03:57.671 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 14:03:57.937 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering HostName
+2025-03-10 14:03:57.937 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering HostName
+2025-03-10 14:03:58.222 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 14:03:58.222 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 14:03:58.574 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 14:03:58.574 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 14:03:58.754 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 14:03:59.035 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add...
+2025-03-10 14:03:59.035 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 14:04:00.376 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 14:04:00.553 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcGithubCtrl_Arti')]
+2025-03-10 14:04:02.876 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcGithubCtrl_Arti
+2025-03-10 14:11:31.274 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - ChromeDriver: chrome on windows (d05edaaa3eef2e1fc8beea56d0a3bf29)
+2025-03-10 14:11:31.279 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Initilize Web Driver: 1855997464
+2025-03-10 14:11:31.317 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Navigating to URLhttps://originawsdev2.dev-int-aws-us.webmethods.io/
+2025-03-10 14:11:33.528 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify username text field is visible
+2025-03-10 14:11:42.679 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering user Name: y508839
+2025-03-10 14:11:42.931 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Password: Artiorigindev2-2025!
+2025-03-10 14:11:45.206 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click on Login Button
+2025-03-10 14:11:47.931 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 14:11:48.125 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 14:11:48.279 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify Home page greet message is visible
+2025-03-10 14:11:53.706 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify create project plus button is visible
+2025-03-10 14:11:54.271 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 14:11:54.271 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:11:54.477 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 14:11:54.854 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 14:11:54.855 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:11:55.008 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 14:11:55.397 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 14:11:55.397 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:11:55.594 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 14:11:55.955 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 14:11:55.956 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcGithubCtrl_Arti
+2025-03-10 14:11:56.459 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Username
+2025-03-10 14:11:56.459 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the User name ArtiKhareIBM
+2025-03-10 14:11:56.707 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 14:11:56.731 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 14:11:57.057 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 14:11:57.079 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 14:11:57.369 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering HostName
+2025-03-10 14:11:57.369 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering HostName
+2025-03-10 14:11:57.630 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 14:11:57.630 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 14:11:58.028 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 14:11:58.028 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 14:11:58.209 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 14:11:58.495 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add...
+2025-03-10 14:11:58.495 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 14:11:59.841 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 14:11:59.998 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcGithubCtrl_Arti')]
+2025-03-10 14:12:01.857 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcGithubCtrl_Arti
+2025-03-10 14:12:07.051 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 14:12:07.051 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:12:07.191 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 14:12:07.591 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 14:12:07.591 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:12:07.763 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 14:12:08.095 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcGithubCtrl_Arti')]
+2025-03-10 14:12:09.091 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcGithubCtrl_Arti
+2025-03-10 14:12:09.232 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Update Source Control with valid token...
+2025-03-10 14:12:09.233 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcGithubCtrl_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Edit')]
+2025-03-10 14:12:09.258 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click Edit Source Control button  :
+2025-03-10 14:12:09.655 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Edit Source Control button Clicked..
+2025-03-10 14:12:09.656 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 14:12:09.656 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 14:12:10.071 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 14:12:10.072 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 14:12:10.269 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 14:12:10.563 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Update ...
+2025-03-10 14:12:10.563 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Update ...
+2025-03-10 14:12:10.749 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Update Button..
+2025-03-10 14:12:12.080 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 14:12:17.309 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 14:12:17.309 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:12:17.448 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 14:12:17.789 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 14:12:17.789 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:12:17.955 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 14:12:18.311 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcGithubCtrl_Arti')]
+2025-03-10 14:12:19.319 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcGithubCtrl_Arti
+2025-03-10 14:12:19.436 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Update Source Control with valid token...
+2025-03-10 14:12:19.436 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcGithubCtrl_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Edit')]
+2025-03-10 14:12:19.454 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click Edit Source Control button  :
+2025-03-10 14:12:19.817 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Edit Source Control button Clicked..
+2025-03-10 14:12:19.818 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 14:12:19.818 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 14:12:20.145 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 14:12:20.145 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 14:12:20.310 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 14:12:20.598 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - verify Alert Msg for Incorrect Details..
+2025-03-10 14:12:20.599 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - verify Alert Msg for Incorrect Details
+2025-03-10 14:12:21.761 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Cancel...
+2025-03-10 14:12:21.761 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel ...
+2025-03-10 14:12:21.917 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel..
+2025-03-10 14:12:24.294 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Deleting Source Control...
+2025-03-10 14:12:24.294 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcGithubCtrl_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Delete')]
+2025-03-10 14:12:24.317 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Removing the added source control :
+2025-03-10 14:12:24.666 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - clicking confirm delete button..
+2025-03-10 14:12:24.967 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Confirming Source Control delete.. 
+2025-03-10 14:12:25.127 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Source Control Deleted...
+2025-03-10 14:12:30.179 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 14:12:30.179 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:12:30.315 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 14:12:30.661 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 14:12:30.661 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcGithubCtrl_Arti
+2025-03-10 14:12:30.948 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Username
+2025-03-10 14:12:30.948 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the User name ArtiKhareIBM
+2025-03-10 14:12:31.182 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 14:12:31.204 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 14:12:31.503 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitLab')]
+2025-03-10 14:12:31.534 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitLab
+2025-03-10 14:12:31.840 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering HostName
+2025-03-10 14:12:31.841 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering HostName
+2025-03-10 14:12:32.146 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 14:12:32.146 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 14:12:32.618 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 14:12:32.619 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 14:12:32.863 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 14:12:33.210 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - verify Alert Msg for Incorrect Details..
+2025-03-10 14:12:33.211 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - verify Alert Msg for Incorrect Details
+2025-03-10 14:12:36.427 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Cancel...
+2025-03-10 14:12:36.427 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel ...
+2025-03-10 14:12:36.577 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel..
+2025-03-10 14:12:41.964 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 14:12:41.964 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:12:42.203 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 14:12:42.714 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 14:12:42.714 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:12:42.881 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 14:12:43.196 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 14:12:43.196 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:12:43.352 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 14:12:43.672 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 14:12:43.672 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcGithubCtrl_Arti
+2025-03-10 14:12:43.966 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Username
+2025-03-10 14:12:43.966 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the User name ArtiKhareIBM
+2025-03-10 14:12:44.428 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 14:12:44.447 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 14:12:44.761 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitLab')]
+2025-03-10 14:12:44.779 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitLab
+2025-03-10 14:12:45.089 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering HostName
+2025-03-10 14:12:45.090 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering HostName
+2025-03-10 14:12:45.407 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 14:12:45.407 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 14:12:45.729 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 14:12:45.729 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 14:12:45.893 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 14:12:46.194 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - verify Alert Msg for Incorrect Details..
+2025-03-10 14:12:46.194 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - verify Alert Msg for Incorrect Details
+2025-03-10 14:12:48.376 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Cancel...
+2025-03-10 14:12:48.376 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel ...
+2025-03-10 14:12:48.512 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel..
+2025-03-10 14:15:28.385 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - ChromeDriver: chrome on windows (07b8f9fac4348e39626f1b1e19556b6b)
+2025-03-10 14:15:28.391 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Initilize Web Driver: 1653153736
+2025-03-10 14:15:28.427 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Navigating to URLhttps://originawsdev2.dev-int-aws-us.webmethods.io/
+2025-03-10 14:15:29.028 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify username text field is visible
+2025-03-10 14:15:39.413 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering user Name: y508839
+2025-03-10 14:15:39.682 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Password: Artiorigindev2-2025!
+2025-03-10 14:15:42.074 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click on Login Button
+2025-03-10 14:15:46.186 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 14:15:46.366 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 14:15:46.496 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify Home page greet message is visible
+2025-03-10 14:15:51.681 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify create project plus button is visible
+2025-03-10 14:15:53.213 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 14:15:53.213 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:15:53.384 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 14:15:53.817 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 14:15:53.817 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:15:53.978 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 14:15:54.305 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 14:15:54.305 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:15:54.467 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 14:15:54.797 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 14:15:54.797 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcGithubCtrl_Arti
+2025-03-10 14:15:55.118 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Username
+2025-03-10 14:15:55.119 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the User name ArtiKhareIBM
+2025-03-10 14:15:55.417 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 14:15:55.440 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 14:15:55.774 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 14:15:55.792 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 14:15:56.239 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering HostName
+2025-03-10 14:15:56.239 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering HostName
+2025-03-10 14:15:56.515 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 14:15:56.515 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 14:15:56.901 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 14:15:56.901 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 14:15:57.050 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 14:15:57.344 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add...
+2025-03-10 14:15:57.344 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 14:15:58.687 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 14:15:58.851 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcGithubCtrl_Arti')]
+2025-03-10 14:16:01.536 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcGithubCtrl_Arti
+2025-03-10 14:16:06.720 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 14:16:06.720 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:16:06.840 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 14:16:07.183 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 14:16:07.183 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:16:07.327 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 14:16:07.685 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcGithubCtrl_Arti')]
+2025-03-10 14:16:08.675 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcGithubCtrl_Arti
+2025-03-10 14:16:08.810 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Update Source Control with valid token...
+2025-03-10 14:16:08.811 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcGithubCtrl_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Edit')]
+2025-03-10 14:16:08.833 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click Edit Source Control button  :
+2025-03-10 14:16:09.217 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Edit Source Control button Clicked..
+2025-03-10 14:16:09.217 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 14:16:09.217 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 14:16:09.613 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 14:16:09.613 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 14:16:09.785 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 14:16:10.087 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Update ...
+2025-03-10 14:16:10.087 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Update ...
+2025-03-10 14:16:10.286 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Update Button..
+2025-03-10 14:16:11.605 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 14:16:16.825 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 14:16:16.825 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:16:17.021 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 14:16:17.395 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 14:16:17.395 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:16:17.543 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 14:16:17.860 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcGithubCtrl_Arti')]
+2025-03-10 14:16:18.876 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcGithubCtrl_Arti
+2025-03-10 14:16:19.020 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Update Source Control with valid token...
+2025-03-10 14:16:19.020 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcGithubCtrl_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Edit')]
+2025-03-10 14:16:19.040 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click Edit Source Control button  :
+2025-03-10 14:16:19.434 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Edit Source Control button Clicked..
+2025-03-10 14:16:19.435 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 14:16:19.435 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 14:16:19.792 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 14:16:19.792 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 14:16:19.967 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 14:16:20.258 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - verify Alert Msg for Incorrect Details..
+2025-03-10 14:16:20.258 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - verify Alert Msg for Incorrect Details
+2025-03-10 14:16:21.431 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Cancel...
+2025-03-10 14:16:21.431 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel ...
+2025-03-10 14:16:21.585 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel..
+2025-03-10 14:16:23.951 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Deleting Source Control...
+2025-03-10 14:16:23.952 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcGithubCtrl_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Delete')]
+2025-03-10 14:16:23.975 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Removing the added source control :
+2025-03-10 14:16:24.304 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - clicking confirm delete button..
+2025-03-10 14:16:24.630 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Confirming Source Control delete.. 
+2025-03-10 14:16:24.808 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Source Control Deleted...
+2025-03-10 14:16:29.854 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 14:16:29.854 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:16:30.001 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 14:16:30.346 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 14:16:30.346 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcGithubCtrl_Arti
+2025-03-10 14:16:30.632 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Username
+2025-03-10 14:16:30.633 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the User name ArtiKhareIBM
+2025-03-10 14:16:30.848 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 14:16:30.870 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 14:16:31.150 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitLab')]
+2025-03-10 14:16:31.171 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitLab
+2025-03-10 14:16:31.462 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering HostName
+2025-03-10 14:16:31.462 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering HostName
+2025-03-10 14:16:31.731 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 14:16:31.731 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 14:16:32.048 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 14:16:32.048 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 14:16:32.223 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 14:16:32.565 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - verify Alert Msg for Incorrect Details..
+2025-03-10 14:16:32.565 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - verify Alert Msg for Incorrect Details
+2025-03-10 14:16:35.760 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Cancel...
+2025-03-10 14:16:35.760 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel ...
+2025-03-10 14:16:35.921 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel..
+2025-03-10 14:16:41.301 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 14:16:41.301 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:16:41.440 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 14:16:41.789 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 14:16:41.789 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:16:41.939 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 14:16:42.260 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 14:16:42.261 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:16:42.396 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 14:16:42.718 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 14:16:42.718 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcGithubCtrl_Arti
+2025-03-10 14:16:43.007 [main2025-03-10 14:23:19.912 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - ChromeDriver: chrome on windows (3403772e9db901d0bba21f983dbea9ad)
+2025-03-10 14:23:19.916 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Initilize Web Driver: 1525241607
+2025-03-10 14:23:19.949 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Navigating to URLhttps://originawsdev2.dev-int-aws-us.webmethods.io/
+2025-03-10 14:23:21.305 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify username text field is visible
+2025-03-10 14:23:29.892 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering user Name: y508839
+2025-03-10 14:23:30.125 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Password: Artiorigindev2-2025!
+2025-03-10 14:23:32.475 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click on Login Button
+2025-03-10 14:23:36.769 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 14:23:36.986 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 14:23:37.155 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify Home page greet message is visible
+2025-03-10 14:23:44.515 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify create project plus button is visible
+2025-03-10 14:23:45.234 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 14:23:45.234 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:23:45.439 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 14:23:45.908 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 14:23:45.908 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:23:46.139 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 14:23:46.538 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 14:23:46.538 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:23:46.740 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 14:23:47.133 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 14:23:47.134 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcGithubCtrl_Arti
+2025-03-10 14:23:47.534 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Username
+2025-03-10 14:23:47.535 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the User name ArtiKhareIBM
+2025-03-10 14:23:48.081 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 14:23:48.110 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 14:23:48.421 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 14:23:48.441 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 14:23:48.739 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering HostName
+2025-03-10 14:23:48.739 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering HostName
+2025-03-10 14:23:49.045 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 14:23:49.046 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 14:23:49.486 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 14:23:49.486 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 14:23:49.648 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 14:23:49.955 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add...
+2025-03-10 14:23:49.955 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 14:23:51.303 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 14:23:51.466 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcGithubCtrl_Arti')]
+2025-03-10 14:23:54.628 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcGithubCtrl_Arti
+2025-03-10 14:23:59.817 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 14:23:59.817 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:23:59.958 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 14:24:00.343 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 14:24:00.343 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:24:00.481 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 14:24:00.860 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcGithubCtrl_Arti')]
+2025-03-10 14:24:02.907 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcGithubCtrl_Arti
+2025-03-10 14:24:03.075 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Update Source Control with valid token...
+2025-03-10 14:24:03.075 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcGithubCtrl_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Edit')]
+2025-03-10 14:24:03.102 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click Edit Source Control button  :
+2025-03-10 14:24:03.496 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Edit Source Control button Clicked..
+2025-03-10 14:24:03.496 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 14:24:03.496 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 14:24:03.880 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 14:24:03.880 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 14:24:04.051 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 14:24:04.370 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Update ...
+2025-03-10 14:24:04.371 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Update ...
+2025-03-10 14:24:04.559 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Update Button..
+2025-03-10 14:24:05.894 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 14:24:11.140 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 14:24:11.140 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:24:11.266 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 14:24:11.615 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 14:24:11.615 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:24:11.764 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 14:24:12.140 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcGithubCtrl_Arti')]
+2025-03-10 14:24:13.306 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcGithubCtrl_Arti
+2025-03-10 14:24:13.432 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Update Source Control with valid token...
+2025-03-10 14:24:13.432 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcGithubCtrl_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Edit')]
+2025-03-10 14:24:13.450 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click Edit Source Control button  :
+2025-03-10 14:24:13.810 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Edit Source Control button Clicked..
+2025-03-10 14:24:13.810 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 14:24:13.811 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 14:24:14.162 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 14:24:14.162 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 14:24:14.339 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 14:24:14.619 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - verify Alert Msg for Incorrect Details..
+2025-03-10 14:24:14.619 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - verify Alert Msg for Incorrect Details
+2025-03-10 14:24:15.793 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Cancel...
+2025-03-10 14:24:15.793 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel ...
+2025-03-10 14:24:15.949 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel..
+2025-03-10 14:24:18.314 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Deleting Source Control...
+2025-03-10 14:24:18.314 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcGithubCtrl_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Delete')]
+2025-03-10 14:24:18.337 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Removing the added source control :
+2025-03-10 14:24:18.672 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - clicking confirm delete button..
+2025-03-10 14:24:18.970 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Confirming Source Control delete.. 
+2025-03-10 14:24:19.125 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Source Control Deleted...
+2025-03-10 14:24:24.181 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 14:24:24.181 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:24:24.314 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 14:24:24.694 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 14:24:24.694 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcGithubCtrl_Arti
+2025-03-10 14:24:24.972 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Username
+2025-03-10 14:24:24.972 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the User name ArtiKhareIBM
+2025-03-10 14:24:25.206 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 14:24:25.227 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 14:24:25.505 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitLab')]
+2025-03-10 14:24:25.525 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitLab
+2025-03-10 14:24:25.838 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering HostName
+2025-03-10 14:24:25.838 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering HostName
+2025-03-10 14:24:26.092 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 14:24:26.093 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 14:24:26.409 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 14:24:26.409 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 14:24:26.596 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 14:24:26.909 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - verify Alert Msg for Incorrect Details..
+2025-03-10 14:24:26.909 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - verify Alert Msg for Incorrect Details
+2025-03-10 14:24:30.087 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Cancel...
+2025-03-10 14:24:30.087 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel ...
+2025-03-10 14:24:30.229 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel..
+2025-03-10 14:24:35.641 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 14:24:35.641 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:24:35.779 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 14:24:36.129 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 14:24:36.129 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:24:36.288 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 14:24:36.611 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 14:24:36.611 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:24:36.760 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 14:24:37.062 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 14:24:37.063 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcGithubCtrl_Arti
+2025-03-10 14:24:37.356 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Username
+2025-03-10 14:24:37.357 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the User name ArtiKhareIBM
+2025-03-10 14:24:37.596 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 14:24:37.611 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 14:24:37.919 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitLab')]
+2025-03-10 14:24:37.934 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitLab
+2025-03-10 14:24:38.263 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering HostName
+2025-03-10 14:24:38.263 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering HostName
+2025-03-10 14:24:38.717 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 14:24:38.717 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 14:24:39.055 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 14:24:39.055 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 14:24:39.236 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 14:24:39.538 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - verify Alert Msg for Incorrect Details..
+2025-03-10 14:24:39.538 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - verify Alert Msg for Incorrect Details
+2025-03-10 14:24:40.718 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Cancel...
+2025-03-10 14:24:40.718 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel ...
+2025-03-10 14:24:40.857 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel..
+2025-03-10 14:24:45.657 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - ChromeDriver: chrome on windows (91b7246c6862ac47b2f0d94eac67f1e1)
+2025-03-10 14:24:45.657 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Initilize Web Driver: 1416376514
+2025-03-10 14:24:45.701 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Navigating to URLhttps://originawsdev2.dev-int-aws-us.webmethods.io/
+2025-03-10 14:24:47.299 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify username text field is visible
+2025-03-10 14:24:54.231 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering user Name: y508839
+2025-03-10 14:24:54.432 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Password: Artiorigindev2-2025!
+2025-03-10 14:24:56.671 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click on Login Button
+2025-03-10 14:25:00.099 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 14:25:00.300 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 14:25:00.428 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify Home page greet message is visible
+2025-03-10 14:25:04.924 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify create project plus button is visible
+2025-03-10 14:25:05.167 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 14:25:05.167 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:25:05.342 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 14:25:05.755 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 14:25:05.755 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:25:05.917 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 14:25:06.315 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 14:25:06.315 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:25:06.527 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 14:25:06.917 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 14:25:06.917 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcCtrl_gitlab_Arti
+2025-03-10 14:25:07.303 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Username
+2025-03-10 14:25:07.303 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the User name ArtiKhareGitlab
+2025-03-10 14:25:07.716 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 14:25:07.737 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 14:25:08.061 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitLab')]
+2025-03-10 14:25:08.093 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitLab
+2025-03-10 14:25:08.396 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering HostName
+2025-03-10 14:25:08.396 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering HostName
+2025-03-10 14:25:08.686 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 14:25:08.686 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 14:25:09.012 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 14:25:09.013 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 14:25:09.201 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 14:25:09.526 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add...
+2025-03-10 14:25:09.527 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 14:25:10.847 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 14:25:11.014 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcCtrl_gitlab_Arti')]
+2025-03-10 14:25:13.457 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcCtrl_gitlab_Arti
+2025-03-10 14:25:18.637 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 14:25:18.637 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:25:18.902 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 14:25:19.328 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 14:25:19.328 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:25:19.478 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 14:25:19.844 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcCtrl_gitlab_Arti')]
+2025-03-10 14:25:21.017 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcCtrl_gitlab_Arti
+2025-03-10 14:25:21.167 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Update Source Control with valid token...
+2025-03-10 14:25:21.167 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcCtrl_gitlab_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Edit')]
+2025-03-10 14:25:21.195 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click Edit Source Control button  :
+2025-03-10 14:25:21.636 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Edit Source Control button Clicked..
+2025-03-10 14:25:21.636 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 14:25:21.636 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 14:25:22.090 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 14:25:22.091 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 14:25:22.265 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 14:25:22.571 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Update ...
+2025-03-10 14:25:22.571 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Update ...
+2025-03-10 14:25:22.754 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Update Button..
+2025-03-10 14:25:24.100 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 14:25:29.364 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 14:25:29.365 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:25:29.663 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 14:25:30.036 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 14:25:30.037 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:25:30.189 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 14:25:30.507 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcCtrl_gitlab_Arti')]
+2025-03-10 14:25:31.720 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcCtrl_gitlab_Arti
+2025-03-10 14:25:31.855 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Update Source Control with valid token...
+2025-03-10 14:25:31.855 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcCtrl_gitlab_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Edit')]
+2025-03-10 14:25:31.878 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click Edit Source Control button  :
+2025-03-10 14:25:32.306 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Edit Source Control button Clicked..
+2025-03-10 14:25:32.306 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 14:25:32.306 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 14:25:32.659 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 14:25:32.659 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 14:25:32.805 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 14:25:33.105 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - verify Alert Msg for Incorrect Details..
+2025-03-10 14:25:33.106 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - verify Alert Msg for Incorrect Details
+2025-03-10 14:25:34.294 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Cancel...
+2025-03-10 14:25:34.294 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel ...
+2025-03-10 14:25:34.471 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel..
+2025-03-10 14:25:36.852 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Deleting Source Control...
+2025-03-10 14:25:36.852 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcCtrl_gitlab_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Delete')]
+2025-03-10 14:25:36.877 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Removing the added source control :
+2025-03-10 14:25:37.233 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - clicking confirm delete button..
+2025-03-10 14:25:37.532 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Confirming Source Control delete.. 
+2025-03-10 14:25:37.676 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Source Control Deleted...
+2025-03-10 14:25:42.746 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 14:25:42.746 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:25:42.924 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 14:25:43.295 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 14:25:43.295 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:25:43.498 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 14:25:43.992 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 14:25:43.992 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:25:44.222 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 14:25:44.593 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 14:25:44.593 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcCtrl_gitlab_Arti
+2025-03-10 14:25:45.027 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Username
+2025-03-10 14:25:45.027 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the User name ArtiKhareGitlab
+2025-03-10 14:25:45.295 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 14:25:45.319 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 14:25:45.663 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitLab')]
+2025-03-10 14:25:45.686 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitLab
+2025-03-10 14:25:46.030 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering HostName
+2025-03-10 14:25:46.030 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering HostName
+2025-03-10 14:25:46.282 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 14:25:46.282 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 14:25:46.623 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 14:25:46.623 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 14:25:46.759 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 14:25:47.082 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - verify Alert Msg for Incorrect Details..
+2025-03-10 14:25:47.082 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - verify Alert Msg for Incorrect Details
+2025-03-10 14:25:48.269 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Cancel...
+2025-03-10 14:25:48.270 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel ...
+2025-03-10 14:25:48.429 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel..
+2025-03-10 14:25:55.334 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - ChromeDriver: chrome on windows (f514c2a2f3868c9abeb532f9339dc520)
+2025-03-10 14:25:55.334 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Initilize Web Driver: 1443763289
+2025-03-10 14:25:55.345 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Navigating to URLhttps://originawsdev2.dev-int-aws-us.webmethods.io/
+2025-03-10 14:25:56.003 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify username text field is visible
+2025-03-10 14:26:04.546 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering user Name: y508839
+2025-03-10 14:26:04.745 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Password: Artiorigindev2-2025!
+2025-03-10 14:26:07.058 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click on Login Button
+2025-03-10 14:26:11.400 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 14:26:11.555 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 14:26:11.701 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify Home page greet message is visible
+2025-03-10 14:26:16.681 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify create project plus button is visible
+2025-03-10 14:26:17.956 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 14:26:17.957 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:26:18.108 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 14:26:52.187 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 14:26:52.187 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:26:52.374 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 14:26:52.774 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 14:26:52.774 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:26:53.018 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 14:26:56.667 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 14:26:56.667 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:26:56.808 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 14:26:57.189 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 14:26:57.190 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:26:57.336 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 14:26:57.777 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Update Source Control with valid token...
+2025-03-10 14:26:57.777 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcCtrl_bitbucket_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Edit')]
+2025-03-10 14:27:28.175 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Deleting Source Control...
+2025-03-10 14:27:28.175 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcCtrl_bitbucket_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Delete')]
+2025-03-10 14:28:01.446 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 14:28:01.446 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:28:01.670 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 14:28:02.038 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 14:28:02.038 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:28:02.178 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 14:28:02.533 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 14:28:02.533 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 14:28:02.688 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 14:28:03.051 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 14:28:03.051 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcCtrl_bitbucket_Arti
+2025-03-10 14:28:03.409 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Username
+2025-03-10 14:28:03.409 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the User name artikhare
+2025-03-10 14:28:03.826 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 14:28:03.848 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 14:28:04.181 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'Bitbucket')]
+2025-03-10 14:28:04.206 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :Bitbucket
+2025-03-10 14:28:04.525 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering HostName
+2025-03-10 14:28:04.525 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering HostName
+2025-03-10 14:28:04.807 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 14:28:04.807 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 14:28:05.141 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 14:28:05.141 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 14:28:05.323 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 14:28:05.656 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - verify Alert Msg for Incorrect Details..
+2025-03-10 14:28:05.656 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - verify Alert Msg for Incorrect Details
+2025-03-10 14:28:06.857 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Cancel...
+2025-03-10 14:28:06.857 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel ...
+2025-03-10 14:28:07.008 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel..
+2025-03-10 15:04:57.327 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - ChromeDriver: chrome on windows (e168cfc64019d05d92cb994d92d99340)
+2025-03-10 15:04:57.331 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Initilize Web Driver: 103433239
+2025-03-10 15:04:57.367 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Navigating to URLhttps://originawsdev2.dev-int-aws-us.webmethods.io/
+2025-03-10 15:04:59.647 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify username text field is visible
+2025-03-10 15:05:11.291 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering user Name: y508839
+2025-03-10 15:05:11.537 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Password: Artiorigindev2-2025!
+2025-03-10 15:05:13.969 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click on Login Button
+2025-03-10 15:05:18.603 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 15:05:18.857 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 15:05:18.998 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify Home page greet message is visible
+2025-03-10 15:05:23.413 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify create project plus button is visible
+2025-03-10 15:05:24.377 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 15:05:24.378 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:05:24.562 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 15:05:25.146 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 15:05:25.147 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:05:25.362 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 15:05:25.816 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 15:05:25.817 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:05:26.047 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 15:05:26.529 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 15:05:26.529 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcCtrl_gitlab_Arti
+2025-03-10 15:05:27.154 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Username
+2025-03-10 15:05:27.154 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the User name ArtiKhareGitlab
+2025-03-10 15:05:27.489 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 15:05:27.528 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 15:05:27.892 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitLab')]
+2025-03-10 15:05:27.927 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitLab
+2025-03-10 15:05:28.276 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering HostName
+2025-03-10 15:05:28.276 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering HostName
+2025-03-10 15:05:28.648 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 15:05:28.649 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 15:05:29.098 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 15:05:29.099 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 15:05:29.311 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 15:05:29.712 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add...
+2025-03-10 15:05:29.712 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 15:05:32.203 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 15:05:32.415 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcCtrl_gitlab_Arti')]
+2025-03-10 15:05:36.545 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcCtrl_gitlab_Arti
+2025-03-10 15:05:41.782 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 15:05:41.782 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:05:41.994 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 15:05:42.409 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 15:05:42.409 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:05:42.588 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 15:05:42.943 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcCtrl_gitlab_Arti')]
+2025-03-10 15:05:44.208 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcCtrl_gitlab_Arti
+2025-03-10 15:05:44.374 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Update Source Control with valid token...
+2025-03-10 15:05:44.375 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcCtrl_gitlab_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Edit')]
+2025-03-10 15:05:44.405 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click Edit Source Control button  :
+2025-03-10 15:05:44.888 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Edit Source Control button Clicked..
+2025-03-10 15:05:44.888 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 15:05:44.889 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 15:05:45.292 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 15:05:45.292 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 15:05:45.499 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 15:05:45.868 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Update ...
+2025-03-10 15:05:45.868 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Update ...
+2025-03-10 15:05:46.124 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Update Button..
+2025-03-10 15:05:48.529 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 15:05:53.820 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 15:05:53.820 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:05:54.110 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 15:05:54.532 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 15:05:54.532 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:05:54.715 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 15:05:55.143 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcCtrl_gitlab_Arti')]
+2025-03-10 15:05:56.335 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcCtrl_gitlab_Arti
+2025-03-10 15:05:56.481 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Update Source Control with valid token...
+2025-03-10 15:05:56.481 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcCtrl_gitlab_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Edit')]
+2025-03-10 15:05:56.508 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click Edit Source Control button  :
+2025-03-10 15:05:57.016 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Edit Source Control button Clicked..
+2025-03-10 15:05:57.017 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 15:05:57.017 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 15:05:57.423 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 15:05:57.423 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 15:05:57.637 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 15:05:57.989 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - verify Alert Msg for Incorrect Details..
+2025-03-10 15:05:57.989 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - verify Alert Msg for Incorrect Details
+2025-03-10 15:05:59.209 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Cancel...
+2025-03-10 15:05:59.210 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel ...
+2025-03-10 15:05:59.388 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel..
+2025-03-10 15:06:01.843 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Deleting Source Control...
+2025-03-10 15:06:01.843 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcCtrl_gitlab_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Delete')]
+2025-03-10 15:06:01.879 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Removing the added source control :
+2025-03-10 15:06:02.364 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - clicking confirm delete button..
+2025-03-10 15:06:02.711 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Confirming Source Control delete.. 
+2025-03-10 15:06:02.928 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Source Control Deleted...
+2025-03-10 15:06:08.038 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 15:06:08.038 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:06:08.217 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 15:06:08.673 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 15:06:08.673 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:06:08.862 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 15:06:09.272 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 15:06:09.272 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:06:09.520 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 15:06:09.963 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 15:06:09.963 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcCtrl_gitlab_Arti
+2025-03-10 15:06:10.438 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Username
+2025-03-10 15:06:10.438 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the User name ArtiKhareGitlab
+2025-03-10 15:06:10.817 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 15:06:10.860 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 15:06:11.207 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitLab')]
+2025-03-10 15:06:11.244 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitLab
+2025-03-10 15:06:11.588 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering HostName
+2025-03-10 15:06:11.588 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering HostName
+2025-03-10 15:06:11.935 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 15:06:11.935 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 15:06:12.291 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 15:06:12.292 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 15:06:12.545 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 15:06:12.933 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - verify Alert Msg for Incorrect Details..
+2025-03-10 15:06:12.933 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - verify Alert Msg for Incorrect Details
+2025-03-10 15:06:14.167 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Cancel...
+2025-03-10 15:06:14.168 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel ...
+2025-03-10 15:06:14.379 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel..
+2025-03-10 15:06:20.557 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - ChromeDriver: chrome on windows (4d33ddc8c1730240382a6d3ba1a1f15f)
+2025-03-10 15:06:20.557 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Initilize Web Driver: 1574138492
+2025-03-10 15:06:20.565 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Navigating to URLhttps://originawsdev2.dev-int-aws-us.webmethods.io/
+2025-03-10 15:06:25.121 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify username text field is visible
+2025-03-10 15:06:31.995 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering user Name: y508839
+2025-03-10 15:06:32.236 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Password: Artiorigindev2-2025!
+2025-03-10 15:06:34.597 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click on Login Button
+2025-03-10 15:06:37.417 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 15:06:37.623 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 15:06:37.759 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify Home page greet message is visible
+2025-03-10 15:06:44.169 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify create project plus button is visible
+2025-03-10 15:06:44.542 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 15:06:44.542 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:06:44.790 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 15:06:45.306 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 15:06:45.306 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:06:45.477 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 15:06:45.957 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 15:06:45.957 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:06:46.245 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 15:06:46.783 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 15:06:46.783 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcCtrl_bitbucket_Arti
+2025-03-10 15:06:47.558 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Username
+2025-03-10 15:06:47.559 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the User name artikhare
+2025-03-10 15:06:47.891 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 15:06:47.940 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 15:06:48.319 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'Bitbucket')]
+2025-03-10 15:06:48.347 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :Bitbucket
+2025-03-10 15:06:48.687 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering HostName
+2025-03-10 15:06:48.687 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering HostName
+2025-03-10 15:06:49.124 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 15:06:49.124 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 15:06:49.659 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 15:06:49.659 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 15:06:49.916 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 15:06:50.273 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add...
+2025-03-10 15:06:50.273 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 15:06:51.682 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 15:06:51.911 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcCtrl_bitbucket_Arti')]
+2025-03-10 15:06:54.221 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcCtrl_bitbucket_Arti
+2025-03-10 15:06:59.522 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 15:06:59.522 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:06:59.699 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 15:07:00.123 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 15:07:00.123 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:07:00.339 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 15:07:00.719 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcCtrl_bitbucket_Arti')]
+2025-03-10 15:07:02.019 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcCtrl_bitbucket_Arti
+2025-03-10 15:07:02.168 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Update Source Control with valid token...
+2025-03-10 15:07:02.169 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcCtrl_bitbucket_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Edit')]
+2025-03-10 15:07:02.220 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click Edit Source Control button  :
+2025-03-10 15:07:02.804 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Edit Source Control button Clicked..
+2025-03-10 15:07:02.805 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 15:07:02.805 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 15:07:03.265 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 15:07:03.266 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 15:07:03.475 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 15:07:03.858 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Update ...
+2025-03-10 15:07:03.858 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Update ...
+2025-03-10 15:07:04.111 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Update Button..
+2025-03-10 15:07:05.540 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 15:07:10.894 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 15:07:10.894 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:07:11.077 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 15:07:11.505 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 15:07:11.505 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:07:11.664 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 15:07:12.085 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Update Source Control with valid token...
+2025-03-10 15:07:12.085 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcCtrl_bitbucket_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Edit')]
+2025-03-10 15:07:13.255 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click Edit Source Control button  :
+2025-03-10 15:07:13.750 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Edit Source Control button Clicked..
+2025-03-10 15:07:13.751 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 15:07:13.751 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 15:07:14.173 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 15:07:14.174 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 15:07:14.404 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 15:07:14.784 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - verify Alert Msg for Incorrect Details..
+2025-03-10 15:07:14.784 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - verify Alert Msg for Incorrect Details
+2025-03-10 15:07:16.057 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Cancel...
+2025-03-10 15:07:16.058 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel ...
+2025-03-10 15:07:16.316 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel..
+2025-03-10 15:07:18.873 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Deleting Source Control...
+2025-03-10 15:07:18.873 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcCtrl_bitbucket_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Delete')]
+2025-03-10 15:07:18.911 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Removing the added source control :
+2025-03-10 15:07:19.353 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - clicking confirm delete button..
+2025-03-10 15:07:19.745 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Confirming Source Control delete.. 
+2025-03-10 15:07:20.011 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Source Control Deleted...
+2025-03-10 15:07:25.111 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 15:07:25.111 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:07:25.298 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 15:07:25.663 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 15:07:25.664 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:07:25.842 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 15:07:26.191 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 15:07:26.192 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:07:26.384 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 15:07:26.774 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 15:07:26.774 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcCtrl_bitbucket_Arti
+2025-03-10 15:07:27.157 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Username
+2025-03-10 15:07:27.158 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the User name artikhare
+2025-03-10 15:07:27.694 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 15:07:27.738 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 15:07:28.114 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'Bitbucket')]
+2025-03-10 15:07:28.149 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :Bitbucket
+2025-03-10 15:07:28.463 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering HostName
+2025-03-10 15:07:28.463 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering HostName
+2025-03-10 15:07:28.831 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 15:07:28.831 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 15:07:29.294 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 15:07:29.295 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 15:07:29.458 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 15:07:29.861 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - verify Alert Msg for Incorrect Details..
+2025-03-10 15:07:29.861 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - verify Alert Msg for Incorrect Details
+2025-03-10 15:07:32.074 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Cancel...
+2025-03-10 15:07:32.074 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel ...
+2025-03-10 15:07:32.286 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel..
+2025-03-10 15:08:37.157 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - ChromeDriver: chrome on windows (1a4ec42b1417105a3eb2f1c1568756f2)
+2025-03-10 15:08:37.161 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Initilize Web Driver: 1653153736
+2025-03-10 15:08:37.190 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Navigating to URLhttps://originawsdev2.dev-int-aws-us.webmethods.io/
+2025-03-10 15:08:42.406 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify username text field is visible
+2025-03-10 15:08:53.703 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering user Name: y508839
+2025-03-10 15:08:53.968 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Password: Artiorigindev2-2025!
+2025-03-10 15:08:56.293 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click on Login Button
+2025-03-10 15:09:00.983 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 15:09:01.152 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 15:09:01.340 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify Home page greet message is visible
+2025-03-10 15:09:07.650 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify create project plus button is visible
+2025-03-10 15:09:09.696 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 15:09:09.697 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:09:09.901 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 15:09:10.433 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 15:09:10.433 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:09:10.654 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 15:09:11.061 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 15:09:11.062 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:09:11.272 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 15:09:11.752 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 15:09:11.753 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcGithubCtrl_Arti
+2025-03-10 15:09:12.240 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Username
+2025-03-10 15:09:12.240 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the User name ArtiKhareIBM
+2025-03-10 15:09:12.682 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 15:09:12.709 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 15:09:13.316 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 15:09:13.344 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 15:09:13.661 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering HostName
+2025-03-10 15:09:13.662 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering HostName
+2025-03-10 15:09:14.048 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 15:09:14.049 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 15:09:14.630 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 15:09:14.631 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 15:09:14.888 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 15:09:15.232 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add...
+2025-03-10 15:09:15.233 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 15:09:16.649 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 15:09:16.856 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcGithubCtrl_Arti')]
+2025-03-10 15:09:19.127 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcGithubCtrl_Arti
+2025-03-10 15:09:24.374 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 15:09:24.374 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:09:24.567 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 15:09:25.014 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 15:09:25.014 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:09:25.203 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 15:09:25.647 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcGithubCtrl_Arti')]
+2025-03-10 15:09:26.820 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcGithubCtrl_Arti
+2025-03-10 15:09:26.960 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Update Source Control with valid token...
+2025-03-10 15:09:26.961 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcGithubCtrl_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Edit')]
+2025-03-10 15:09:27.001 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click Edit Source Control button  :
+2025-03-10 15:09:27.476 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Edit Source Control button Clicked..
+2025-03-10 15:09:27.476 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 15:09:27.477 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 15:09:27.936 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 15:09:27.937 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 15:09:28.161 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 15:09:28.534 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Update ...
+2025-03-10 15:09:28.534 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Update ...
+2025-03-10 15:09:28.763 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Update Button..
+2025-03-10 15:09:30.199 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 15:09:35.507 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 15:09:35.507 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:09:35.702 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 15:09:36.115 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 15:09:36.115 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:09:36.298 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 15:09:36.704 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcGithubCtrl_Arti')]
+2025-03-10 15:09:37.884 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcGithubCtrl_Arti
+2025-03-10 15:09:38.044 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Update Source Control with valid token...
+2025-03-10 15:09:38.045 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcGithubCtrl_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Edit')]
+2025-03-10 15:09:38.082 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click Edit Source Control button  :
+2025-03-10 15:09:38.505 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Edit Source Control button Clicked..
+2025-03-10 15:09:38.506 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 15:09:38.506 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 15:09:38.993 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 15:09:38.994 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 15:09:39.214 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 15:09:39.562 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - verify Alert Msg for Incorrect Details..
+2025-03-10 15:09:39.563 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - verify Alert Msg for Incorrect Details
+2025-03-10 15:09:41.825 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Cancel...
+2025-03-10 15:09:41.825 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel ...
+2025-03-10 15:09:42.040 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel..
+2025-03-10 15:09:44.546 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Deleting Source Control...
+2025-03-10 15:09:44.546 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcGithubCtrl_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Delete')]
+2025-03-10 15:09:44.587 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Removing the added source control :
+2025-03-10 15:09:44.993 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - clicking confirm delete button..
+2025-03-10 15:09:45.356 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Confirming Source Control delete.. 
+2025-03-10 15:09:45.572 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Source Control Deleted...
+2025-03-10 15:09:50.683 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 15:09:50.683 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:09:50.857 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 15:09:51.318 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 15:09:51.318 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcGithubCtrl_Arti
+2025-03-10 15:09:51.673 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Username
+2025-03-10 15:09:51.674 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the User name ArtiKhareIBM
+2025-03-10 15:09:52.029 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 15:09:52.079 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 15:09:52.440 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitLab')]
+2025-03-10 15:09:52.483 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitLab
+2025-03-10 15:09:52.828 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering HostName
+2025-03-10 15:09:52.829 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering HostName
+2025-03-10 15:09:53.164 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 15:09:53.165 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 15:09:53.584 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 15:09:53.584 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 15:09:53.767 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 15:09:54.088 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - verify Alert Msg for Incorrect Details..
+2025-03-10 15:09:54.089 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - verify Alert Msg for Incorrect Details
+2025-03-10 15:09:57.320 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Cancel...
+2025-03-10 15:09:57.320 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel ...
+2025-03-10 15:09:57.505 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel..
+2025-03-10 15:10:03.031 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 15:10:03.031 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:10:03.208 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 15:10:03.667 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 15:10:03.667 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:10:03.896 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 15:10:04.295 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 15:10:04.295 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:10:04.515 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 15:10:05.024 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 15:10:05.024 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcGithubCtrl_Arti
+2025-03-10 15:10:05.565 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Username
+2025-03-10 15:10:05.565 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the User name ArtiKhareIBM
+2025-03-10 15:10:05.974 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 15:10:06.016 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 15:10:06.394 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitLab')]
+2025-03-10 15:10:06.417 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitLab
+2025-03-10 15:10:06.754 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering HostName
+2025-03-10 15:10:06.756 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering HostName
+2025-03-10 15:10:07.125 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 15:10:07.125 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 15:10:07.548 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 15:10:07.548 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 15:10:07.777 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 15:10:08.114 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - verify Alert Msg for Incorrect Details..
+2025-03-10 15:10:08.114 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - verify Alert Msg for Incorrect Details
+2025-03-10 15:10:09.346 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Cancel...
+2025-03-10 15:10:09.347 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel ...
+2025-03-10 15:10:09.541 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel..
+2025-03-10 15:10:14.850 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - ChromeDriver: chrome on windows (717e9abd14a295f4cc5d69d8e1e15b17)
+2025-03-10 15:10:14.850 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Initilize Web Driver: 2098738059
+2025-03-10 15:10:14.861 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Navigating to URLhttps://originawsdev2.dev-int-aws-us.webmethods.io/
+2025-03-10 15:10:17.265 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify username text field is visible
+2025-03-10 15:10:29.381 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering user Name: y508839
+2025-03-10 15:10:29.586 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Password: Artiorigindev2-2025!
+2025-03-10 15:10:31.867 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click on Login Button
+2025-03-10 15:10:36.284 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 15:10:36.466 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 15:10:36.601 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify Home page greet message is visible
+2025-03-10 15:10:41.732 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify create project plus button is visible
+2025-03-10 15:10:42.963 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 15:10:42.963 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:10:43.132 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 15:10:43.529 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 15:10:43.529 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:10:43.693 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 15:10:44.112 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 15:10:44.112 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:10:44.338 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 15:10:44.753 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 15:10:44.753 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcCtrl_gitlab_Arti
+2025-03-10 15:10:45.288 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Username
+2025-03-10 15:10:45.289 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the User name ArtiKhareGitlab
+2025-03-10 15:10:45.667 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 15:10:45.696 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 15:10:45.998 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitLab')]
+2025-03-10 15:10:46.025 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitLab
+2025-03-10 15:10:46.350 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering HostName
+2025-03-10 15:10:46.351 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering HostName
+2025-03-10 15:10:46.658 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 15:10:46.658 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 15:10:47.051 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 15:10:47.051 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 15:10:47.235 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 15:10:47.562 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add...
+2025-03-10 15:10:47.562 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 15:10:49.991 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 15:10:50.171 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcCtrl_gitlab_Arti')]
+2025-03-10 15:10:52.588 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcCtrl_gitlab_Arti
+2025-03-10 15:10:57.819 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 15:10:57.819 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:10:57.984 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 15:10:58.370 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 15:10:58.371 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:10:58.606 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 15:10:59.043 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcCtrl_gitlab_Arti')]
+2025-03-10 15:11:00.237 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcCtrl_gitlab_Arti
+2025-03-10 15:11:00.392 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Update Source Control with valid token...
+2025-03-10 15:11:00.392 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcCtrl_gitlab_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Edit')]
+2025-03-10 15:11:00.422 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click Edit Source Control button  :
+2025-03-10 15:11:00.890 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Edit Source Control button Clicked..
+2025-03-10 15:11:00.890 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 15:11:00.891 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 15:11:01.298 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 15:11:01.299 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 15:11:01.465 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 15:11:01.783 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Update ...
+2025-03-10 15:11:01.783 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Update ...
+2025-03-10 15:11:01.973 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Update Button..
+2025-03-10 15:11:03.364 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 15:11:08.678 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 15:11:08.678 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:11:08.845 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 15:11:09.236 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 15:11:09.236 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:11:09.421 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 15:11:09.822 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcCtrl_gitlab_Arti')]
+2025-03-10 15:11:11.033 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcCtrl_gitlab_Arti
+2025-03-10 15:11:11.159 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Update Source Control with valid token...
+2025-03-10 15:11:11.159 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcCtrl_gitlab_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Edit')]
+2025-03-10 15:11:11.183 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click Edit Source Control button  :
+2025-03-10 15:11:11.630 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Edit Source Control button Clicked..
+2025-03-10 15:11:11.630 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 15:11:11.630 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 15:11:12.001 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 15:11:12.001 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 15:11:12.222 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 15:11:12.546 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - verify Alert Msg for Incorrect Details..
+2025-03-10 15:11:12.547 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - verify Alert Msg for Incorrect Details
+2025-03-10 15:11:13.756 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Cancel...
+2025-03-10 15:11:13.756 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel ...
+2025-03-10 15:11:13.921 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel..
+2025-03-10 15:11:16.333 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Deleting Source Control...
+2025-03-10 15:11:16.334 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcCtrl_gitlab_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Delete')]
+2025-03-10 15:11:16.366 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Removing the added source control :
+2025-03-10 15:11:16.732 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - clicking confirm delete button..
+2025-03-10 15:11:17.060 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Confirming Source Control delete.. 
+2025-03-10 15:11:17.219 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Source Control Deleted...
+2025-03-10 15:11:22.295 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 15:11:22.295 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:11:22.430 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 15:11:22.816 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 15:11:22.816 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:11:22.963 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 15:11:23.329 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 15:11:23.330 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:11:23.561 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 15:11:23.986 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 15:11:23.986 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcCtrl_gitlab_Arti
+2025-03-10 15:11:24.384 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Username
+2025-03-10 15:11:24.384 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the User name ArtiKhareGitlab
+2025-03-10 15:11:24.856 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 15:11:24.883 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 15:11:25.195 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitLab')]
+2025-03-10 15:11:25.224 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitLab
+2025-03-10 15:11:25.540 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering HostName
+2025-03-10 15:11:25.540 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering HostName
+2025-03-10 15:11:25.832 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 15:11:25.832 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 15:11:26.212 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 15:11:26.213 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 15:11:26.364 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 15:11:26.686 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - verify Alert Msg for Incorrect Details..
+2025-03-10 15:11:26.686 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - verify Alert Msg for Incorrect Details
+2025-03-10 15:11:27.896 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Cancel...
+2025-03-10 15:11:27.896 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel ...
+2025-03-10 15:11:28.065 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel..
+2025-03-10 15:11:34.490 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - ChromeDriver: chrome on windows (8a0d15b3ccb47a8aea4204f7363db5e9)
+2025-03-10 15:11:34.490 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Initilize Web Driver: 1934240791
+2025-03-10 15:11:34.499 [main] INFO  com.webMethodsUI.flow.testbase.TestBase - Navigating to URLhttps://originawsdev2.dev-int-aws-us.webmethods.io/
+2025-03-10 15:11:39.005 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify username text field is visible
+2025-03-10 15:11:45.963 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering user Name: y508839
+2025-03-10 15:11:46.180 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Password: Artiorigindev2-2025!
+2025-03-10 15:11:48.536 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click on Login Button
+2025-03-10 15:11:51.461 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 15:11:51.669 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for page load
+2025-03-10 15:11:51.831 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify Home page greet message is visible
+2025-03-10 15:11:57.370 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify create project plus button is visible
+2025-03-10 15:11:57.614 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 15:11:57.614 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:11:57.768 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 15:11:58.163 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 15:11:58.163 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:11:58.335 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 15:11:58.759 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 15:11:58.759 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:11:58.984 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 15:11:59.394 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 15:11:59.395 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcCtrl_bitbucket_Arti
+2025-03-10 15:11:59.968 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Username
+2025-03-10 15:11:59.968 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the User name artikhare
+2025-03-10 15:12:00.279 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 15:12:00.302 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 15:12:00.649 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'Bitbucket')]
+2025-03-10 15:12:00.678 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :Bitbucket
+2025-03-10 15:12:01.041 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering HostName
+2025-03-10 15:12:01.041 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering HostName
+2025-03-10 15:12:01.437 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 15:12:01.438 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 15:12:01.947 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 15:12:01.948 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 15:12:02.161 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 15:12:02.510 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add...
+2025-03-10 15:12:02.510 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 15:12:04.929 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 15:12:05.127 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcCtrl_bitbucket_Arti')]
+2025-03-10 15:12:07.344 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcCtrl_bitbucket_Arti
+2025-03-10 15:12:12.611 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 15:12:12.611 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:12:12.760 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 15:12:13.161 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 15:12:13.162 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:12:13.320 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 15:12:13.735 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[contains(text(),'srcCtrl_bitbucket_Arti')]
+2025-03-10 15:12:14.855 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Verify vissible level is: srcCtrl_bitbucket_Arti
+2025-03-10 15:12:14.997 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Update Source Control with valid token...
+2025-03-10 15:12:14.998 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcCtrl_bitbucket_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Edit')]
+2025-03-10 15:12:15.022 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click Edit Source Control button  :
+2025-03-10 15:12:15.465 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Edit Source Control button Clicked..
+2025-03-10 15:12:15.465 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 15:12:15.465 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 15:12:15.952 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 15:12:15.952 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 15:12:16.106 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 15:12:16.421 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Update ...
+2025-03-10 15:12:16.421 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Update ...
+2025-03-10 15:12:16.645 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Update Button..
+2025-03-10 15:12:17.976 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Version Control Button..
+2025-03-10 15:12:23.254 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 15:12:23.254 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:12:23.398 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 15:12:23.803 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 15:12:23.803 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:12:23.969 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 15:12:24.381 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Update Source Control with valid token...
+2025-03-10 15:12:24.381 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcCtrl_bitbucket_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Edit')]
+2025-03-10 15:12:25.624 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Click Edit Source Control button  :
+2025-03-10 15:12:26.071 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Edit Source Control button Clicked..
+2025-03-10 15:12:26.071 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 15:12:26.071 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 15:12:26.506 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 15:12:26.507 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 15:12:26.665 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 15:12:26.982 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - verify Alert Msg for Incorrect Details..
+2025-03-10 15:12:26.982 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - verify Alert Msg for Incorrect Details
+2025-03-10 15:12:28.214 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Cancel...
+2025-03-10 15:12:28.215 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel ...
+2025-03-10 15:12:28.382 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel..
+2025-03-10 15:12:30.849 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Deleting Source Control...
+2025-03-10 15:12:30.849 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //span[normalize-space()='srcCtrl_bitbucket_Arti']/ancestor::div[@class='git-account-row row']//a[contains(@title, 'Delete')]
+2025-03-10 15:12:30.880 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Removing the added source control :
+2025-03-10 15:12:31.232 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - clicking confirm delete button..
+2025-03-10 15:12:31.567 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Confirming Source Control delete.. 
+2025-03-10 15:12:31.755 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage -  Source Control Deleted...
+2025-03-10 15:12:36.822 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click Settings
+2025-03-10 15:12:36.822 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:12:36.966 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on settings..
+2025-03-10 15:12:37.355 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Click VersionControl Tab
+2025-03-10 15:12:37.355 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:12:37.511 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Version Control tab..
+2025-03-10 15:12:37.902 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Add Button on in VersionControl Page
+2025-03-10 15:12:37.902 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - wait for button to load:
+2025-03-10 15:12:38.118 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Add Button..
+2025-03-10 15:12:38.488 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Github source control
+2025-03-10 15:12:38.488 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the source control srcCtrl_bitbucket_Arti
+2025-03-10 15:12:39.051 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Username
+2025-03-10 15:12:39.051 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Enter the User name artikhare
+2025-03-10 15:12:39.378 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'GitHub')]
+2025-03-10 15:12:39.406 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :GitHub
+2025-03-10 15:12:39.739 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Fetching webelement at runtime //div[contains(text(),'Bitbucket')]
+2025-03-10 15:12:39.764 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on filter :Bitbucket
+2025-03-10 15:12:40.084 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering HostName
+2025-03-10 15:12:40.084 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering HostName
+2025-03-10 15:12:40.384 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - Entering Personal Access Token
+2025-03-10 15:12:40.384 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - Entering Personal Access Token
+2025-03-10 15:12:40.754 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Validate ...
+2025-03-10 15:12:40.754 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Validate ...
+2025-03-10 15:12:40.920 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click on Validate Button..
+2025-03-10 15:12:41.272 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - verify Alert Msg for Incorrect Details..
+2025-03-10 15:12:41.272 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - verify Alert Msg for Incorrect Details
+2025-03-10 15:12:42.478 [main] INFO  com.webMethodsUI.flow.pageObjects.Settingpage.Oauthclientregistrationhomepage - click Cancel...
+2025-03-10 15:12:42.479 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel ...
+2025-03-10 15:12:42.630 [main] INFO  com.webMethodsUI.flow.pageObjects.common.LoginPage - click Cancel..

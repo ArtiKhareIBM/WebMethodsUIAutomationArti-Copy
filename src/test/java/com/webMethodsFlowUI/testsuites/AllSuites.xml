@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuite">
+ <!-- <test  name="RESTApplicationTestSuite">
+    <classes>
+     <class name="com.webMethodsFlowUI.testsuites.RESTApplication.RESTApplicationTestSuite"/>
+    
+     
+    </classes>
+  </test> 
+  
+  
+  <test  name="SOAPAPIFromScratchTestSuite">
+    <classes>
+    
+     <class name="com.webMethodsFlowUI.testsuites.SOAPAPI.SOAPAPIFromScratchTestSuite" />
+     
+    </classes>
+  </test> -->
+
+    <test  name="GitlabVersionControl">
+        <classes>
+
+            <class name="com.webMethodsFlowUI.testsuites.GitlabVersionControl.GitlabVersionControlTestCase" />
+
+        </classes>
+    </test>
+
+    <!-- <test name="OnPremApplicationTestSuite">
+           <classes>
+               <class
+                   name="com.webMethodsFlowUI.testsuites.onpremApplication.OnPremApplicationTestSuite" />
+
+           </classes>
+       </test> -->
+  
+  
+  
+  
+  
+  
+  
+</suite> <!-- Suite -->

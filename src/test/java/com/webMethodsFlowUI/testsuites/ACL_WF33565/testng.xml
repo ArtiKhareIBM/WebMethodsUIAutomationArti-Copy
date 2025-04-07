@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <test  name="Test2">
+    <classes>
+      <class name="com.webMethodsFlowUI.testsuites.ACL_WF33565.ACL_WF33565"/>
+    </classes>
+  </test>
+  <test  name="Test3">
+    <classes>
+      <class name="com.webMethodsFlowUI.testsuites.ACL_WF33565.ACL_WF33566DevUser"/>
+    </classes>
+  </test> 
+    <test  name="Test4">
+    <classes>
+      <class name="com.webMethodsFlowUI.testsuites.ACL_WF33565.MultiInstance_ACL"/>
+    </classes>
+  </test>
+  <test name="Test5">
+    <classes>
+      <class name="com.webMethodsFlowUI.testsuites.ACL_WF33565.ACL_WF33566Cleanup"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

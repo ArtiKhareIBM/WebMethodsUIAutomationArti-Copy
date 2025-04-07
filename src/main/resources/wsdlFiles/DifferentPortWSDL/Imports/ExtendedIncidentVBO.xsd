@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--(c) Vodafone Group Services Limited. All rights reserved. This document 
+	comprises proprietary and confidential information and copyright material 
+	belonging to Vodafone Group Services Limited. Other than as permitted by 
+	law, no part of this document may be reproduced, adapted, or distributed, 
+	in any form or by any means, without the prior written consent of Vodafone 
+	Group Services Limited. The information in this document is subject to change 
+	without notice. All trademarks acknowledged. Vodafone Group Services Limited 
+	- Confidential -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="http://group.vodafone.com/schema/extension/vbo/service/incident/v1" xmlns:cct="urn:un:unece:uncefact:documentation:standard:CoreComponentType:2" targetNamespace="http://group.vodafone.com/schema/extension/vbo/service/incident/v1" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+	<xsd:annotation>
+		<xsd:documentation>
+			<p>Schema Definition for Incident Extension</p>
+		</xsd:documentation>
+	</xsd:annotation>
+	<xsd:import namespace="urn:un:unece:uncefact:documentation:standard:CoreComponentType:2" schemaLocation="../../../../Common/V1/CoreComponentType_2p0.xsd"/>
+	<xsd:complexType name="ExtendedIncidentVBOType"/>
+	<xsd:complexType name="ExtendedIncidentDetailsType"/>
+	<xsd:complexType name="ExtendedRelatedIncidentType"/>
+	<xsd:complexType name="ExtendedIncidentRolesType"/>
+	<xsd:complexType name="ExtendedIncidentPartsType"/>
+	<xsd:complexType name="ExtendedIncidentProductType"/>
+	<xsd:complexType name="ExtendedIncidentResourceType"/>
+	<xsd:complexType name="ExtendedIncidentServiceType"/>	
+	<xsd:complexType name="ExtendedIncidentServiceLevelType"/>
+	<xsd:complexType name="ExtendedIncidentSupportGroupType"/>
+	<xsd:complexType name="ExtendedIncidentSupportPersonType"/>
+	<xsd:complexType name="ExtendedIncidentImpactType"/>
+	<xsd:complexType name="ExtendedIncidentServiceProviderType"/>
+	<xsd:complexType name="ExtendedExternalReferenceType"/>
+	<xsd:complexType name="ExtendedSymptomType"/>
+	<xsd:complexType name="ExtendedChannelType"/>
+	<xsd:complexType name="ExtendedAttachmentType"/>
+	<xsd:complexType name="ExtendedNoteType"/>
+	<xsd:complexType name="ExtendedIncidentSiteType"/>
+	<xsd:complexType name="ExtendedResolutionType"/>
+	<xsd:complexType name="ExtendedSpecificationType"/>
+	<xsd:complexType name="ExtendedStatusHistoryType"/>
+	<xsd:complexType name="ExtendedEscalationType"/>
+	<xsd:complexType name="ExtendedRequesterType"/>
+	<xsd:complexType name="ExtendedAffecteeType"/>
+	<xsd:complexType name="ExtendedInitiatorType"/>
+	<xsd:complexType name="ExtendedAssigneeType"/>
+	<xsd:complexType name="ExtendedOwnerType"/>	
+	<xsd:complexType name="ExtendedContactPointType"/>
+	<xsd:complexType name="ExtendedContactNameType"/>
+	<xsd:complexType name="ExtendedCauseType"/>
+	<xsd:complexType name="ExtendedWorkLogInfoType"/>
+	<xsd:complexType name="ExtendedWorkOrderType"/>
+	
+	
+</xsd:schema>

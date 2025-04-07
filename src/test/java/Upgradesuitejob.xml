@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="wMioTestSanitySuite" parallel="classes" thread-count="2"> 
+	<test  name="CertificateVerification">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.twowaySSLCerticate.ClientCertificateVerification"/>
+
+		</classes>
+	</test>
+	
+	<test  name="OauthVerification">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.OauthFeature.OauthVerification"/>
+		</classes>
+	</test>
+	
+	<test name="SalesForceCRMTestSuit">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.testsuites.PredefinedApplication.SalesForceCRMBasicAuthTestSuit" />
+		</classes>
+	</test>
+	
+</suite> <!-- Suite -->

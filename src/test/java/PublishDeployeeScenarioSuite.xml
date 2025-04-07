@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuite">
+
+<test name="FlowservicewithRestApppublishDeployee">
+		<classes>
+			<class
+				name="com.webMethodsFlowUI.testsuites.PublishDeployeScenario.FlowservicewithRestApppublishDeployee" />
+		</classes>
+	</test>
+
+	<test name="FlowservicewithSoapApplicationpublishDeployee">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.testsuites.PublishDeployeScenario.FlowservicewithSoapApplicationpublishDeployee" />
+		</classes>
+	</test>
+
+	<test name="publishDeployeeSoapAPI">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.testsuites.PublishDeployeScenario.publishDeployeeSoapAPI" />
+		</classes>
+	</test>
+	<test name="publishDeplyRESTAPI">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.testsuites.PublishDeployeScenario.publishDeplyRESTAPI" />
+		</classes>
+	</test>
+	<test name="NodejsConnectorPublishDeployee">
+		<classes>
+			<class
+					name="com.webMethodsFlowUI.testsuites.PublishDeployeScenario.NodejsConnectorPublishDeployee" />
+		</classes>
+	</test>
+
+
+
+
+
+
+</suite> <!-- Suite -->

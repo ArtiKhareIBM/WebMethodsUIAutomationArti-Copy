@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="wMioTestSanitySuite">
+
+<test name="ExportImportProject">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.ExportImportProject.ExportImportProject" />
+		</classes>
+	</test>
+
+	<test  name="SOAPAPIFromScratchTestSuite">
+		<classes>
+
+			<class name="com.webMethodsFlowUI.testsuites.SOAPAPI.SOAPAPIFromScratchTestSuite" />
+		</classes>
+	</test>
+	
+	<test  name="Customer test suite- StorageModule_BIC_18215">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.customerdefectsRegressionSuite.StorageModule_BIC_18215" />
+		</classes>
+	</test>
+	
+	<test  name="Customer test suite - ContextID_BIC_18312">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.customerdefectsRegressionSuite.ContextID_BIC_18312" />
+		</classes>
+	</test>
+	
+	<test  name="CloudContainerTestSuite">
+		<classes>
+			<class name="com.webMethodsFlowUI.Integration.testsuites.CloudContainer" />
+		</classes>
+	</test>
+	
+	<test name="CustomConnectorTestSuite">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.CustomConnector.CustomConnector" />
+		</classes>
+	</test>
+	
+	<test name="SOAPConnectorWithUrlTestSuite">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.SOAPApplication.SOAPConnectorWithUrlTestSuite" />
+		</classes>
+	</test>
+	
+	<test name="SOAPConnectorWithWSDLTestSuite">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.SOAPApplication.SoapConnectorWithWSDLTestSuite" />
+		</classes>
+	</test>
+	
+	<test name="SalesForceCRMTestSuit">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.PredefinedApplication.SalesForceCRMBasicAuthTestSuit" />
+		</classes>
+	</test>
+	
+	<test name="SalesforceCRMJWTFlowTestSuite">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.PredefinedApplication.SalesforceCRMJWTFlowTestSuite" />
+		</classes>
+	</test>
+	
+	<test name="SalesForceCRMAuthorizationCodeFlowTestSuit">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.PredefinedApplication.SalesForceCRMAuthorizationCodeFlowTestSuit" />
+		</classes>
+	</test>
+	
+	<test name="FlatfileConnectorFromFixedLengthFileCreationWithNoRecordIdentifierTestsuite">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.FlatfileApplication.Level2.FlatfileConnectorFromFixedLengthFileCreationWithNoRecordIdentifierTestsuite" />
+		</classes>
+	</test>
+	
+	<test name="FlatfileConnectorFromManualCreationWithNoRecordIdentifierTestsuite">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.FlatfileApplication.Level2.FlatfileConnectorFromManualCreationWithNoRecordIdentifierTestsuite" />
+		</classes>
+	</test>
+	
+	<test name="FlatfileConnectorFromSampleFileCreationWithNoRecordIdentiferTestsuite">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.FlatfileApplication.Level2.FlatfileConnectorFromSampleFileCreationWithNoRecordIdentiferTestsuite" />
+		</classes>
+	</test>
+	
+	<test name="FlatfileConnectorFromVariableLengthFileTestsuite">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.FlatfileApplication.Level2.FlatfileConnectorFromVariableLengthFileTestsuite" />
+		</classes>
+	</test>
+
+	<test  name="RESTAPIImportFileExecutionTestSuit">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.RESTAPI.Level2.RESTAPIImportFileExecutionTestSuit"/>
+		</classes>
+	</test>
+
+	<test name="DocumentTypeBuildFromScratch">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.DocumentType.DocumentTypeBuildFromScratch" />
+		</classes>
+	</test>
+
+	<test name="DocumentTypeBuildFromXMLFile">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.DocumentType.DocumentTypeBuildFromXMLFile" />
+		</classes>
+	</test>
+
+	<test name="CustomerDefectSuite">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.customerdefectsRegressionSuite.CustomerDefectSuite" />
+		</classes>
+	</test>
+
+	<test name="ConvertDefinedType">
+		<classes>
+			<class name="com.webMethodsFlowUI.testsuites.RESTAPI.ConvertDefinedType" />
+		</classes>
+	</test>
+	
+
+
+</suite> <!-- Suite -->
